@@ -12,10 +12,10 @@
 
 ---
 
-[![Build & Deploy Documentation](https://github.com/carbondirect/BOOST/workflows/🚀%20Build%20&%20Deploy%20Documentation/badge.svg)](https://github.com/carbondirect/BOOST/actions/workflows/build-deploy.yml)
-[![Schema Validation](https://github.com/carbondirect/BOOST/workflows/🔍%20Schema%20Validation/badge.svg)](https://github.com/carbondirect/BOOST/actions/workflows/schema-validation.yml)
-[![PR Validation](https://github.com/carbondirect/BOOST/workflows/📋%20PR%20Validation/badge.svg)](https://github.com/carbondirect/BOOST/actions/workflows/validate-pr.yml)
-[![Development Docs](https://github.com/carbondirect/BOOST/workflows/📚%20Build%20Development%20Documentation/badge.svg)](https://github.com/carbondirect/BOOST/actions/workflows/build-dev-docs.yml)
+[![Build & Deploy Documentation](https://github.com/BOOST-Working-Group/BOOST/workflows/🚀%20Build%20&%20Deploy%20Documentation/badge.svg)](https://github.com/BOOST-Working-Group/BOOST/actions/workflows/build-deploy.yml)
+[![Schema Validation](https://github.com/BOOST-Working-Group/BOOST/workflows/🔍%20Schema%20Validation/badge.svg)](https://github.com/BOOST-Working-Group/BOOST/actions/workflows/schema-validation.yml)
+[![PR Validation](https://github.com/BOOST-Working-Group/BOOST/workflows/📋%20PR%20Validation/badge.svg)](https://github.com/BOOST-Working-Group/BOOST/actions/workflows/validate-pr.yml)
+[![Development Docs](https://github.com/BOOST-Working-Group/BOOST/workflows/📚%20Build%20Development%20Documentation/badge.svg)](https://github.com/BOOST-Working-Group/BOOST/actions/workflows/build-dev-docs.yml)
 
 ## Overview
 This repository contains the working draft and artifacts of the Biomass Open Origin Standard for Tracking (BOOST), which defines a robust and interoperable data model for tracking biomass through complex supply chains. The standard supports transparent, verifiable, and consistent data exchange to enable sustainability, regulatory compliance, and supply chain integrity.
@@ -26,27 +26,27 @@ This repository contains the working draft and artifacts of the Biomass Open Ori
 - **Charter Effective Date:** 
 - **Last Modified:** 
 
-Feedback and contributions are welcomed via GitHub Issues and Pull Requests at [BOOST](https://github.com/carbondirect/BOOST).
+Feedback and contributions are welcomed via GitHub Issues and Pull Requests at [BOOST](https://github.com/BOOST-Working-Group/BOOST).
 
 W3C Community Group page: [BOOST-01](https://www.w3.org/community/boost-01/)
 
 ## 📋 Documentation Access
 
 ### **Primary Documentation**
-- **[📄 Complete PDF Specification](https://carbondirect.github.io/BOOST/boost-spec.pdf)** - 88+ page comprehensive specification with all 36 entities
-- **[🌐 Interactive HTML Specification](https://carbondirect.github.io/BOOST/boost-spec.html)** - W3C-compliant browsable documentation
-- **[📊 Interactive ERD Navigator](https://carbondirect.github.io/BOOST/erd-navigator/)** - Visual exploration of entity relationships and data model
-- **[🗂️ JSON Schema Repository](https://github.com/carbondirect/BOOST/tree/main/drafts/current/schema)** - 36 validation schemas (single source of truth)
+- **[📄 Complete PDF Specification](https://BOOST-Working-Group.github.io/BOOST/boost-spec.pdf)** - 88+ page comprehensive specification with all 36 entities
+- **[🌐 Interactive HTML Specification](https://BOOST-Working-Group.github.io/BOOST/boost-spec.html)** - W3C-compliant browsable documentation
+- **[📊 Interactive ERD Navigator](https://BOOST-Working-Group.github.io/BOOST/erd-navigator/)** - Visual exploration of entity relationships and data model
+- **[🗂️ JSON Schema Repository](https://github.com/BOOST-Working-Group/BOOST/tree/main/drafts/current/schema)** - 36 validation schemas (single source of truth)
 
 ### **Development Resources**
-- **[📈 Build and Consistency Reports](https://github.com/carbondirect/BOOST/tree/main/drafts/current/specifications/build)** - Automated validation and generation statistics
-- **[📝 Complete Version History](https://github.com/carbondirect/BOOST/blob/main/CHANGELOG.md)** - Detailed change documentation
-- **[✅ Enhancement Planning](https://github.com/carbondirect/BOOST/issues?q=label%3Aplan)** - GitHub Issues-based project planning with stakeholder collaboration
+- **[📈 Build and Consistency Reports](https://github.com/BOOST-Working-Group/BOOST/tree/main/drafts/current/specifications/build)** - Automated validation and generation statistics
+- **[📝 Complete Version History](https://github.com/BOOST-Working-Group/BOOST/blob/main/CHANGELOG.md)** - Detailed change documentation
+- **[✅ Enhancement Planning](https://github.com/BOOST-Working-Group/BOOST/issues?q=label%3Aplan)** - GitHub Issues-based project planning with stakeholder collaboration
 
 ## 🚀 Recent Changes & Improvements
 
 ### **Latest Updates (v3.4.2)**
-- **📋 Enhanced Collaboration**: Migrated all enhancement plans to GitHub Issues ([#259](https://github.com/carbondirect/BOOST/issues/259)-[#262](https://github.com/carbondirect/BOOST/issues/262)) for improved stakeholder engagement and transparency
+- **📋 Enhanced Collaboration**: Migrated all enhancement plans to GitHub Issues ([#259](https://github.com/BOOST-Working-Group/BOOST/issues/259)-[#262](https://github.com/BOOST-Working-Group/BOOST/issues/262)) for improved stakeholder engagement and transparency
 - **🔧 Build System Refinements**: Resolved HTML generation consistency issues and header formatting problems
 - **🧹 Documentation Organization**: Streamlined planning documents and improved developer experience
 - **📝 Stakeholder Materials**: Comprehensive interagency presentation materials for California agency engagement
@@ -204,7 +204,7 @@ Each entity has a dedicated GitHub discussion thread accessible via the ERD. Thi
 - **Real-world validation** from supply chain stakeholders
 - **Iterative improvement** based on implementation experience
 
-**Access**: Visit the [Live Interactive ERD Navigator](https://carbondirect.github.io/BOOST/erd-navigator/) or use the local version at `erd-navigator/index.html`
+**Access**: Visit the [Live Interactive ERD Navigator](https://BOOST-Working-Group.github.io/BOOST/erd-navigator/) or use the local version at `erd-navigator/index.html`
 
 ## 📊 Current Status
 
@@ -318,7 +318,7 @@ git push origin vX.Y.Z
 git push origin feature/new-entity
 
 # For main branch pushes, also updates:
-# - https://carbondirect.github.io/BOOST/
+# - https://BOOST-Working-Group.github.io/BOOST/
 # - Interactive ERD Navigator
 # - Schema file access
 ```
