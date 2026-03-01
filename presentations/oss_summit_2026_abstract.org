@@ -32,6 +32,10 @@ This talk shares practical lessons from the process. How to scope a multi-stakeh
 
 The lessons from BOOST apply to anyone building open standards in regulated domains where incumbent systems are proprietary and stakeholders are diverse. As governments worldwide adopt traceability requirements for carbon-intensive commodities — the EU Deforestation Regulation, the US Clean Fuels Production Credit — the need for open, interoperable supply chain standards is growing. BOOST is one attempt to get ahead of that curve.
 
+* Benefits to the Ecosystem
+
+Attendees walk away with a hard-won playbook for building open standards in regulated industries where proprietary systems dominate and stakeholders won't converge voluntarily. The talk covers the full arc — multi-stakeholder needs assessment, JSON Schema architecture, W3C Community Group governance, CI/CD validation pipelines — as concrete, reusable methodology, not theory. It demonstrates how to bridge existing certification systems (FSC, SBP, PEFC) without replacing them, a pattern applicable wherever fragmented data silos block interoperability. It also shows how government-funded open source development actually works: what California's Department of Conservation funded, what they got, and what other standards efforts can learn from the model. Relevant to anyone working on supply chain traceability, climate data infrastructure, or open standards in any regulated domain.
+
 * Speaker Bio
 
 Peter Tittmann is a forest carbon scientist and the founder of Arbos, a technical advisory firm specializing in forest carbon analytics and climate investment. He chairs the BOOST Working Group (W3C Community Group) and has led the development of the BOOST data standard from inception through two phases of California state funding. He has presented on forest carbon methodology and biomass supply chain policy to CARB, the California Board of Forestry, and inter-agency working groups. His work bridges natural resource science, open-source technology, and climate policy implementation.
