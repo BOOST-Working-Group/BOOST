@@ -1,0 +1,58 @@
+#+TITLE: When No Standard Exists: Building Open Biomass Traceability for Climate Policy
+#+AUTHOR: Peter Tittmann, PhD | Arbos
+#+DATE: 2026-02-14
+#+DESCRIPTION: CFP Submission for Open Source Summit North America 2026
+#+PROPERTY: Track Standards & Specifications — Specifications and Implementations Showcase
+#+PROPERTY: Session_Type Breakout Session (30 min)
+#+PROPERTY: Event Open Source Summit + Embedded Linux Conference NA 2026
+#+PROPERTY: Event_Date May 18-20, 2026 | Minneapolis, Minnesota
+#+PROPERTY: CFP_Deadline Sunday, February 15, 2026 11:59 PM PST
+
+* Abstract
+
+Six state agencies need the same supply chain data. Three certification bodies collect it differently. No open standard connects them. The Biomass Open Origin Standard for Tracking (BOOST) is a W3C Community Group building that standard — an open, interoperable data model for tracking woody biomass from forest to fuel. Funded by the California Department of Conservation and developed through a comprehensive needs assessment with regulators, certifiers, tribal programs, and industry, BOOST is early-stage work with hard-won lessons. This talk covers what we found, what we're building, and what building an open standard for a regulated industry actually looks like when the stakeholders range from regulatory attorneys to field operations crews.
+
+* Description
+
+California's Low Carbon Fuel Standard (LCFS) incentivizes low-carbon transportation fuels, including electricity generated from forest biomass. The state's biomass energy programs — BioRAM, BioMAT, and the Forest Residue Utilization Program — channel forest residues from hazardous fuel reduction and timber operations into energy production. But a critical infrastructure gap undermines these programs: there is no open, interoperable standard for tracking biomass from its origin in the forest through processing, transport, and conversion to energy.
+
+Today, chain-of-custody documentation in woody biomass supply chains relies on a patchwork of proprietary formats, manual spreadsheets, and certification-specific systems (FSC, SBP, PEFC). Each certification body maintains its own data model. Each state agency requires different reporting fields. Each facility uses its own intake forms. The result is a traceability gap — regulators cannot efficiently verify feedstock origins, operators face duplicative reporting burdens, and the integrity of climate programs rests on paper trails that are difficult to audit at scale.
+
+The Biomass Open Origin Standard for Tracking (BOOST) is a W3C Community Group effort to close this gap. Funded by the California Department of Conservation, BOOST began with a comprehensive needs assessment: interviews and workshops with state agencies (CARB, CalRecycle, CDFA, CPUC, CEC, DOC), certification bodies (FSC, SBP), tribal forestry programs, biomass facility operators, and timber industry stakeholders. The goal was to understand what data each party needs, what they already collect, and where the interoperability failures occur.
+
+The needs assessment revealed several key findings. First, the majority of data fields required by different agencies and certifiers overlap — but naming conventions, units, and structures differ enough to prevent automated exchange. Second, geographic provenance (where biomass originated) is the single most requested data element across all stakeholders, yet it is the least standardized. Third, existing certification systems focus on chain-of-custody attestation (who handled the material) but not on the quantitative attributes regulators need (species composition, moisture content, carbon intensity pathway data).
+
+From these findings, we developed BOOST's entity-relationship architecture: a JSON Schema-based data model defining entities for traceability (TraceableUnit, TransformationEvent, TransportEvent), organizational identity (Organization, Facility, Certification), material attributes (Species, MoistureContent, Volume), geographic data (HarvestOrigin, ForestManagementUnit), sustainability claims (CarbonIntensity, SustainabilityClaim), and regulatory reporting (LcfsPathway, BioramReport). The architecture maps fields to existing certification schemas rather than replacing them.
+
+Development happens in the open on GitHub. The specification repository uses CI/CD pipelines to validate schema changes, a Docker-containerized build for the documentation site, and an interactive entity-relationship diagram navigator that lets stakeholders explore the data model visually. Community contributors include state agency staff, certification auditors, and supply chain software vendors. The W3C Community Group structure provides governance: formal membership, contribution licensing (W3C CLA), and a consensus-based decision process that gives all stakeholders equal standing.
+
+We are in early-stage development. The needs assessment and architectural design are complete. The JSON Schema definitions cover the core entity set. What remains is validation tooling — a planned web-based application that would allow agencies and operators to check data submissions against both the BOOST schema and regulatory sufficiency requirements (e.g., "does this dataset contain the minimum fields required for an LCFS pathway application?"). This tool is the subject of a Phase 2 funding proposal developed in consultation with CARB, who identified it as a critical next step for adoption.
+
+This talk shares practical lessons from the process. How to scope a multi-stakeholder needs assessment when participants range from regulatory attorneys to field operations crews. How to translate interview findings into a formal data architecture without losing the nuance that makes the standard useful. How open development practices (GitHub, CI/CD, schema validation) lower barriers to participation for non-developer stakeholders — and where they fail. Why W3C Community Groups are an underutilized governance structure for domain-specific standards. And why the hardest part of building an open standard is not the technology — it is getting organizations with competing interests to agree on shared definitions.
+
+The lessons from BOOST apply to anyone building open standards in regulated domains where incumbent systems are proprietary and stakeholders are diverse. As governments worldwide adopt traceability requirements for carbon-intensive commodities — the EU Deforestation Regulation, the US Clean Fuels Production Credit — the need for open, interoperable supply chain standards is growing. BOOST is one attempt to get ahead of that curve.
+
+* Benefits to the Ecosystem
+
+Attendees walk away with a hard-won playbook for building open standards in regulated industries where proprietary systems dominate and stakeholders won't converge voluntarily. The talk covers the full arc — multi-stakeholder needs assessment, JSON Schema architecture, W3C Community Group governance, CI/CD validation pipelines — as concrete, reusable methodology, not theory. It demonstrates how to bridge existing certification systems (FSC, SBP, PEFC) without replacing them, a pattern applicable wherever fragmented data silos block interoperability. It also shows how government-funded open source development actually works: what California's Department of Conservation funded, what they got, and what other standards efforts can learn from the model. Relevant to anyone working on supply chain traceability, climate data infrastructure, or open standards in any regulated domain.
+
+* Speaker Bio
+
+Peter Tittmann is a forest carbon scientist and the founder of Arbos, a technical advisory firm specializing in forest carbon analytics and climate investment. He chairs the BOOST Working Group (W3C Community Group) and has led the development of the BOOST data standard from inception through two phases of California state funding. He has presented on forest carbon methodology and biomass supply chain policy to CARB, the California Board of Forestry, and inter-agency working groups. His work bridges natural resource science, open-source technology, and climate policy implementation.
+
+* Notes                                                            :noexport:
+
+** Target Track Options
+- Standards & Specifications → "Standards for Critical and Emerging Technology"
+- Standards & Specifications → "Specifications and Implementations Showcase"
+- Digital Trust → "Establishing Open Source Trust Frameworks"
+
+** Key Selling Points
+- W3C Community Group — established open governance
+- California state-funded across two phases — government backing
+- 36-entity JSON Schema with CI/CD — serious open-source infrastructure
+- CARB/LCFS integration — directly relevant to climate policy
+- Speaker is Working Group Chair
+
+** Submission URL
+https://sessionize.com — check Linux Foundation CFP page for exact link
