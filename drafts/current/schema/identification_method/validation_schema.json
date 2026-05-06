@@ -1,7 +1,7 @@
 {
   "schema": {
     "$schema": "http://json-schema.org/draft-07/schema#",
-    "$id": "https://github.com/carbondirect/BOOST/schemas/identification-method",
+    "$id": "https://github.com/BOOST-Working-Group/BOOST/schemas/identification-method",
     "title": "Identification Method",
     "description": "Catalog of available identification methods for TraceableUnit tracking",
     "type": "object",

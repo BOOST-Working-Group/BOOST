@@ -1,7 +1,7 @@
 {
   "schema": {
     "$schema": "http://json-schema.org/draft-07/schema#",
-    "$id": "https://github.com/carbondirect/BOOST/schemas/material",
+    "$id": "https://github.com/BOOST-Working-Group/BOOST/schemas/material",
     "title": "Material",
     "description": "Material types and specifications",
     "type": "object",

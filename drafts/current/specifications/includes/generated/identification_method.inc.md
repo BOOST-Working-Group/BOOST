@@ -182,7 +182,7 @@ The `IdentificationMethod` entity catalogs available identification methods for 
 <td>string (uri)
 <td>Yes
 <td>Unique URI identifier for JSON-LD
-<td>`https://github.com/carbondirect/BOOST/schemas/identification-method/IM-RFID-001`
+<td>`https://github.com/BOOST-Working-Group/BOOST/schemas/identification-method/IM-RFID-001`
 </tr>
 <tr>
 <td>`lastUpdated`

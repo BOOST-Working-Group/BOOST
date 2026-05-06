@@ -334,7 +334,7 @@ ls -la build/_minted-*
 The BOOST build system uses Docker containerization for fast, consistent builds across all environments.
 
 #### Pre-Built Container Image
-- **Image**: `ghcr.io/carbondirect/boost/boost-builder:latest`
+- **Image**: `ghcr.io/boost-working-group/boost/boost-builder:latest`
 - **Contents**: Ubuntu 22.04 + full LaTeX + Python + Bikeshed + Pandoc
 - **Performance**: 4-6x faster builds (2-4 min vs 8-10 min)
 - **Reliability**: Eliminates dependency installation failures
@@ -342,10 +342,10 @@ The BOOST build system uses Docker containerization for fast, consistent builds 
 #### Local Testing with Docker
 ```bash
 # Use the same container as CI/CD
-docker pull ghcr.io/carbondirect/boost/boost-builder:latest
+docker pull ghcr.io/boost-working-group/boost/boost-builder:latest
 
 # Run interactive build environment
-docker run -it --rm -v $(pwd):/workspace ghcr.io/carbondirect/boost/boost-builder:latest
+docker run -it --rm -v $(pwd):/workspace ghcr.io/boost-working-group/boost/boost-builder:latest
 
 # Inside container
 cd /workspace/drafts/current/specifications
@@ -362,7 +362,7 @@ jobs:
   build-release:
     runs-on: ubuntu-latest
     container:
-      image: ghcr.io/carbondirect/boost/boost-builder:latest
+      image: ghcr.io/boost-working-group/boost/boost-builder:latest
       options: --pull=missing
     steps:
       - name: Checkout repository
@@ -390,7 +390,7 @@ jobs:
   build-documentation:
     runs-on: ubuntu-latest
     container:
-      image: ghcr.io/carbondirect/boost/boost-builder:latest
+      image: ghcr.io/boost-working-group/boost/boost-builder:latest
       options: --pull=missing
     steps:
       - name: Build HTML documentation
@@ -399,7 +399,7 @@ jobs:
       
       - name: Deploy to GitHub Pages
         if: github.ref == 'refs/heads/main'
-        # Deploy to https://carbondirect.github.io/BOOST/
+        # Deploy to https://boost-working-group.github.io/BOOST/
 ```
 
 #### Version Management (`version-check.yml`)

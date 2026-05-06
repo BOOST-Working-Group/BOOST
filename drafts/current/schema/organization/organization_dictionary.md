@@ -100,7 +100,7 @@ The `Organization` entity manages companies and institutions with geographic dat
 <td>string (uri)
 <td>Yes
 <td>Unique URI identifier for JSON-LD
-<td>`https://github.com/carbondirect/BOOST/schemas/organization/ORG-001`
+<td>`https://github.com/BOOST-Working-Group/BOOST/schemas/organization/ORG-001`
 </tr>
 <tr>
 <td>`lastUpdated`

@@ -198,7 +198,7 @@ The `Transaction` entity manages comprehensive business transactions within the 
 <td>string (uri)
 <td>Yes
 <td>Unique URI identifier for JSON-LD
-<td>`https://github.com/carbondirect/BOOST/schemas/transaction/TXN-001`
+<td>`https://github.com/BOOST-Working-Group/BOOST/schemas/transaction/TXN-001`
 </tr>
 </tbody>
 </table>

@@ -1,7 +1,7 @@
 {
   "@context": {
-    "@vocab": "https://github.com/carbondirect/BOOST/context/",
-    "boost": "https://github.com/carbondirect/BOOST/context/",
+    "@vocab": "https://github.com/BOOST-Working-Group/BOOST/context/",
+    "boost": "https://github.com/BOOST-Working-Group/BOOST/context/",
     "schema": "https://schema.org/"
   },
   "@type": "Supplier",

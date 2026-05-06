@@ -121,7 +121,7 @@ The `CertificationScheme` entity defines certification standards and requirement
 <td>string (uri)
 <td>Yes
 <td>Unique URI identifier for JSON-LD
-<td>`https://github.com/carbondirect/BOOST/schemas/certification-scheme/CERT-SCHEME-FSC-001`
+<td>`https://github.com/BOOST-Working-Group/BOOST/schemas/certification-scheme/CERT-SCHEME-FSC-001`
 </tr>
 <tr>
 <td>`lastUpdated`

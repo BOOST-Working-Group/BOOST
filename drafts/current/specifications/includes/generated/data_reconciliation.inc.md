@@ -239,7 +239,7 @@ The `DataReconciliation` entity reconciles measurements between forest and mill 
 <td>string (uri)
 <td>Yes
 <td>Unique URI identifier for JSON-LD
-<td>`https://github.com/carbondirect/BOOST/schemas/data-reconciliation/DR-001`
+<td>`https://github.com/BOOST-Working-Group/BOOST/schemas/data-reconciliation/DR-001`
 </tr>
 <tr>
 <td>`lastUpdated`

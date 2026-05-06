@@ -114,7 +114,7 @@ The `MoistureContent` entity tracks moisture measurements for biomass materials 
 <td>string (uri)
 <td>Yes
 <td>Unique URI identifier for JSON-LD
-<td>`https://github.com/carbondirect/BOOST/schemas/moisture-content/MC-001`
+<td>`https://github.com/BOOST-Working-Group/BOOST/schemas/moisture-content/MC-001`
 </tr>
 </tbody>
 </table>

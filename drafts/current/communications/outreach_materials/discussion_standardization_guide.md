@@ -9,7 +9,7 @@ All entity discussions MUST follow this exact format and section order:
 
 ## 🔗 Related Links
 - **Issue**: #[IssueNumber] (`EntityName` entity)
-- **ERD Navigator**: [View in full context →](https://carbondirect.github.io/BOOST/erd-navigator/)
+- **ERD Navigator**: [View in full context →](https://boost-working-group.github.io/BOOST/erd-navigator/)
 
 ## 🎯 Purpose
 
@@ -228,7 +228,7 @@ All GitHub entity discussions now follow the identical 7-section template with:
 ## GitHub Discussion Update Process
 
 To update GitHub discussions:
-1. Go to the specific discussion URL (GitHub.com/carbondirect/BOOST/discussions/[number])
+1. Go to the specific discussion URL (GitHub.com/BOOST-Working-Group/BOOST/discussions/[number])
 2. Click "Edit" on the original post
 3. Update title and content according to the standard template
 4. Ensure Related Links section is properly formatted
@@ -239,7 +239,7 @@ To update GitHub discussions:
 ```markdown
 ## 🔗 Related Links
 - **Issue**: #[IssueNumber] (`EntityName` entity)
-- **ERD Navigator**: [View in full context →](https://carbondirect.github.io/BOOST/erd-navigator/)
+- **ERD Navigator**: [View in full context →](https://boost-working-group.github.io/BOOST/erd-navigator/)
 ```
 
 This should be inserted as the second section in each discussion, right after the main title.

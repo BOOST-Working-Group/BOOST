@@ -9,22 +9,22 @@ Enhancement plans are tracked as **GitHub Issues** with comprehensive technical 
 
 ### **Active Enhancement Plans (GitHub Issues)**
 
-- **[Issue #259](https://github.com/carbondirect/BOOST/issues/259)**: Build System Enhancement Plan
+- **[Issue #259](https://github.com/BOOST-Working-Group/BOOST/issues/259)**: Build System Enhancement Plan
   - 6-phase roadmap over 11 weeks addressing build fragility
   - **Priority**: Medium - Infrastructure improvement
   - **Status**: Planning
 
-- **[Issue #260](https://github.com/carbondirect/BOOST/issues/260)**: ISEAL CoC Conformance Enhancement  
+- **[Issue #260](https://github.com/BOOST-Working-Group/BOOST/issues/260)**: ISEAL CoC Conformance Enhancement  
   - 3-phase implementation over 9 months for full ISEAL compliance
   - **Priority**: Critical - Required for certification
   - **Status**: Planning
 
-- **[Issue #261](https://github.com/carbondirect/BOOST/issues/261)**: Contextual Validation Enhancement
+- **[Issue #261](https://github.com/BOOST-Working-Group/BOOST/issues/261)**: Contextual Validation Enhancement
   - 4-phase implementation over 8 months for sophisticated validation
   - **Priority**: High - Data quality improvement
   - **Status**: Planning
 
-- **[Issue #262](https://github.com/carbondirect/BOOST/issues/262)**: Relationship System Consolidation (DEFERRED)
+- **[Issue #262](https://github.com/BOOST-Working-Group/BOOST/issues/262)**: Relationship System Consolidation (DEFERRED)
   - 4-phase consolidation over 6 weeks for architecture improvement
   - **Priority**: Medium-High - Technical debt reduction
   - **Status**: Deferred

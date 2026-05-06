@@ -156,7 +156,7 @@ The `BioramReporting` entity represents quarterly compliance reports submitted b
 <td>string (uri)
 <td>Yes
 <td>Unique URI identifier for JSON-LD
-<td>`https://github.com/carbondirect/BOOST/schemas/bioram-reporting/BIORAM-RPT-2025-Q3-SHWD001`
+<td>`https://github.com/BOOST-Working-Group/BOOST/schemas/bioram-reporting/BIORAM-RPT-2025-Q3-SHWD001`
 </tr>
 <tr>
 <td>`lastUpdated`

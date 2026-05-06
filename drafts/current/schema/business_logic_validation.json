@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "$id": "https://github.com/carbondirect/BOOST/schemas/business-logic-validation",
+  "$id": "https://github.com/BOOST-Working-Group/BOOST/schemas/business-logic-validation",
   "title": "BOOST Business Logic Validation Rules",
   "description": "Domain-specific business rules and calculations for biomass supply chain validation",
   "type": "object",

@@ -79,7 +79,7 @@ The `Audit` entity tracks certification audits and compliance verification activ
 <td>string (uri)
 <td>Yes
 <td>Unique URI identifier for JSON-LD
-<td>`https://github.com/carbondirect/BOOST/schemas/audit/AUDIT-001`
+<td>`https://github.com/BOOST-Working-Group/BOOST/schemas/audit/AUDIT-001`
 </tr>
 </tbody>
 </table>

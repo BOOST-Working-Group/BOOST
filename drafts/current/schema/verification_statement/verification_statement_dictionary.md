@@ -93,7 +93,7 @@ The `VerificationStatement` entity manages third-party verification statements f
 <td>string (uri)
 <td>Yes
 <td>Unique URI identifier for JSON-LD
-<td>`https://github.com/carbondirect/BOOST/schemas/verification-statement/VS-001`
+<td>`https://github.com/BOOST-Working-Group/BOOST/schemas/verification-statement/VS-001`
 </tr>
 </tbody>
 </table>

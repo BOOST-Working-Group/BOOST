@@ -77,18 +77,18 @@ Access notes and documentation from BOOST working group meetings and presentatio
 
 **Kickoff Meeting**
 Initial project kickoff meeting notes and presentation materials.
-<a href="https://github.com/carbondirect/BOOST/blob/main/meetings/kickoff_meeting.md" class="meeting-link">Meeting Notes →</a>
-<a href="https://github.com/carbondirect/BOOST/blob/main/meetings/kickoff_meetingNotes.md" class="meeting-link secondary">Additional Notes →</a>
+<a href="https://github.com/BOOST-Working-Group/BOOST/blob/main/meetings/kickoff_meeting.md" class="meeting-link">Meeting Notes →</a>
+<a href="https://github.com/BOOST-Working-Group/BOOST/blob/main/meetings/kickoff_meetingNotes.md" class="meeting-link secondary">Additional Notes →</a>
 
 **June 11, 2025**
 Working group meeting notes and action items from June 11th session.
-<a href="https://github.com/carbondirect/BOOST/blob/main/meetings/meeting_6_11_25.md" class="meeting-link">Meeting Notes →</a>
-<a href="https://github.com/carbondirect/BOOST/blob/main/meetings/meetingNotes_6_11_25.md" class="meeting-link secondary">Additional Notes →</a>
+<a href="https://github.com/BOOST-Working-Group/BOOST/blob/main/meetings/meeting_6_11_25.md" class="meeting-link">Meeting Notes →</a>
+<a href="https://github.com/BOOST-Working-Group/BOOST/blob/main/meetings/meetingNotes_6_11_25.md" class="meeting-link secondary">Additional Notes →</a>
 
 **June 25, 2025**
 Latest working group meeting notes and updates from June 25th session.
-<a href="https://github.com/carbondirect/BOOST/blob/main/meetings/BOOST_meeting_6_25_2025.md" class="meeting-link">Meeting Notes →</a>
-<a href="https://github.com/carbondirect/BOOST/blob/main/meetings/meetingNotes_6_25_25.md" class="meeting-link secondary">Additional Notes →</a>
+<a href="https://github.com/BOOST-Working-Group/BOOST/blob/main/meetings/BOOST_meeting_6_25_2025.md" class="meeting-link">Meeting Notes →</a>
+<a href="https://github.com/BOOST-Working-Group/BOOST/blob/main/meetings/meetingNotes_6_25_25.md" class="meeting-link secondary">Additional Notes →</a>
 
 </div>
 
@@ -123,7 +123,7 @@ Industry stakeholders are welcome to provide feedback on BOOST entity schemas. T
 **How to Provide Feedback:**
 1. Explore entities using the [ERD Navigator](erd-navigator/index.html)
 2. Review entity schemas and field definitions
-3. Submit feedback via [GitHub Issues](https://github.com/carbondirect/BOOST/issues)
+3. Submit feedback via [GitHub Issues](https://github.com/BOOST-Working-Group/BOOST/issues)
 4. Join [W3C Community Group discussions](https://lists.w3.org/Archives/Public/public-boost-01/)
 
 <style>

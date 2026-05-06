@@ -92,7 +92,7 @@ Markup Shorthands: markdown yes
   },
   "KAULEN-2023": {
     "authors": ["A. Kaulen", "L. Stopfer", "K. Lippert", "T. Purfürst"],
-    "href": "https://github.com/carbondirect/BOOST/tree/main/references",
+    "href": "https://github.com/BOOST-Working-Group/BOOST/tree/main/references",
     "title": "Systematics of Forestry Technology for Tracing the Timber Supply Chain",
     "date": "2023"
   }
@@ -113,11 +113,11 @@ Publication as a Community Group Report does not imply endorsement by the W3C Me
 
 <h2 id="feedback" class="no-num no-toc">How to Give Feedback</h2>
 
-This specification is primarily developed on [GitHub](https://github.com/carbondirect/BOOST). The best way to contribute to this specification is to:
+This specification is primarily developed on [GitHub](https://github.com/BOOST-Working-Group/BOOST). The best way to contribute to this specification is to:
 
-1. File issues and suggestions in the [BOOST GitHub repository](https://github.com/carbondirect/BOOST/issues)
+1. File issues and suggestions in the [BOOST GitHub repository](https://github.com/BOOST-Working-Group/BOOST/issues)
 2. Submit pull requests for specific changes
-3. Participate in community discussions via [GitHub Discussions](https://github.com/carbondirect/BOOST/discussions)
+3. Participate in community discussions via [GitHub Discussions](https://github.com/BOOST-Working-Group/BOOST/discussions)
 4. Join the [W3C Community Group mailing list](https://lists.w3.org/Archives/Public/public-boost-01/) for broader discussions
 
 # Executive Summary # {#executive-summary}
@@ -600,7 +600,7 @@ NOTE: The [Python reference implementation](#python-implementation) automaticall
 {
   "schema": {
     "$schema": "http://json-schema.org/draft-07/schema#",
-    "$id": "https://github.com/carbondirect/BOOST/schemas/entity-name",
+    "$id": "https://github.com/BOOST-Working-Group/BOOST/schemas/entity-name",
     "title": "Entity Name",
     "type": "object",
     "properties": { ... },

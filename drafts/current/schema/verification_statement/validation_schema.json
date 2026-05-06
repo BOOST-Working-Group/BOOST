@@ -1,7 +1,7 @@
 {
   "schema": {
     "$schema": "http://json-schema.org/draft-07/schema#",
-    "$id": "https://github.com/carbondirect/BOOST/schemas/verification-statement",
+    "$id": "https://github.com/BOOST-Working-Group/BOOST/schemas/verification-statement",
     "type": "object",
     "properties": {
       "@context": {

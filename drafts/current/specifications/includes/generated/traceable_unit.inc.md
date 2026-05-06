@@ -408,7 +408,7 @@ The `TraceableUnit` object represents the fundamental unit of traceability in th
 <td>string (uri)
 <td>Yes
 <td>Unique URI identifier for JSON-LD
-<td>`https://github.com/carbondirect/BOOST/schemas/traceable-unit/TRU-001`
+<td>`https://github.com/BOOST-Working-Group/BOOST/schemas/traceable-unit/TRU-001`
 </tr>
 <tr>
 <td>`lastUpdated`

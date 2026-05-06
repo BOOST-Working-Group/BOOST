@@ -156,7 +156,7 @@ The `MaterialProcessing` entity tracks all technical manipulations with input/ou
 <td>string (uri)
 <td>Yes
 <td>Unique URI identifier for JSON-LD
-<td>`https://github.com/carbondirect/BOOST/schemas/material-processing/PROC-001`
+<td>`https://github.com/BOOST-Working-Group/BOOST/schemas/material-processing/PROC-001`
 </tr>
 <tr>
 <td>`lastUpdated`

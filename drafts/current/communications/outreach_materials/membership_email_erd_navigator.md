@@ -12,7 +12,7 @@ We're excited to share a significant milestone in the development of the Biomass
 
 **🗂️ ERD Navigator:** An interactive web tool that visualizes the 17 core entities that form the foundation of BOOST's data standard. You can explore the complete data model, zoom in on specific relationships, and jump directly to detailed discussions about each entity.
 
-**📍 Access the Navigator:** [https://github.com/carbondirect/BOOST/tree/main/erd-navigator](https://github.com/carbondirect/BOOST/tree/main/erd-navigator)
+**📍 Access the Navigator:** [https://github.com/BOOST-Working-Group/BOOST/tree/main/erd-navigator](https://github.com/BOOST-Working-Group/BOOST/tree/main/erd-navigator)
 
 **💬 GitHub Discussions:** Each of the 17 entities has a dedicated discussion thread where we're gathering detailed feedback on schema design, attributes, and real-world applicability.
 

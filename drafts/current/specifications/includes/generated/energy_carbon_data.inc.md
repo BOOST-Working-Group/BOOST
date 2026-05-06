@@ -299,7 +299,7 @@ The `EnergyCarbonData` entity manages energy and carbon intensity data for lifec
 <td>string (uri)
 <td>Yes
 <td>Unique URI identifier for JSON-LD
-<td>`https://github.com/carbondirect/BOOST/schemas/energy-carbon-data/ECD-001`
+<td>`https://github.com/BOOST-Working-Group/BOOST/schemas/energy-carbon-data/ECD-001`
 </tr>
 </tbody>
 </table>
