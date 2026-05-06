@@ -28,7 +28,7 @@ RUN apt-get update && apt-get install -y \
 
 # Upgrade pip and install Python dependencies
 RUN pip install --upgrade pip && \
-    pip install bikeshed jsonschema pydantic[email] requests pycairo
+    pip install 'bikeshed<6' jsonschema pydantic[email] requests pycairo
 
 # Initialize Bikeshed spec database (this takes time, so cache it in image)
 RUN bikeshed update
