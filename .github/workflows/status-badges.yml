@@ -52,36 +52,36 @@ jobs:
           
           **Build & Deploy:**
           ```markdown
-          ![Build & Deploy](https://github.com/carbondirect/BOOST/actions/workflows/build-deploy.yml/badge.svg?branch=main)
+          ![Build & Deploy](https://github.com/BOOST-Working-Group/BOOST/actions/workflows/build-deploy.yml/badge.svg?branch=main)
           ```
           
           **Schema Validation:**
           ```markdown
-          ![Schema Validation](https://github.com/carbondirect/BOOST/actions/workflows/schema-validation.yml/badge.svg?branch=main)
+          ![Schema Validation](https://github.com/BOOST-Working-Group/BOOST/actions/workflows/schema-validation.yml/badge.svg?branch=main)
           ```
           
           **Release:**
           ```markdown
-          ![Release](https://github.com/carbondirect/BOOST/actions/workflows/release.yml/badge.svg)
+          ![Release](https://github.com/BOOST-Working-Group/BOOST/actions/workflows/release.yml/badge.svg)
           ```
           
           ## Combined Status
           
           **All Checks:**
           ```markdown
-          [![Build & Deploy](https://github.com/carbondirect/BOOST/actions/workflows/build-deploy.yml/badge.svg?branch=main)](https://github.com/carbondirect/BOOST/actions/workflows/build-deploy.yml)
-          [![Schema Validation](https://github.com/carbondirect/BOOST/actions/workflows/schema-validation.yml/badge.svg?branch=main)](https://github.com/carbondirect/BOOST/actions/workflows/schema-validation.yml)
-          [![Release](https://github.com/carbondirect/BOOST/actions/workflows/release.yml/badge.svg)](https://github.com/carbondirect/BOOST/actions/workflows/release.yml)
+          [![Build & Deploy](https://github.com/BOOST-Working-Group/BOOST/actions/workflows/build-deploy.yml/badge.svg?branch=main)](https://github.com/BOOST-Working-Group/BOOST/actions/workflows/build-deploy.yml)
+          [![Schema Validation](https://github.com/BOOST-Working-Group/BOOST/actions/workflows/schema-validation.yml/badge.svg?branch=main)](https://github.com/BOOST-Working-Group/BOOST/actions/workflows/schema-validation.yml)
+          [![Release](https://github.com/BOOST-Working-Group/BOOST/actions/workflows/release.yml/badge.svg)](https://github.com/BOOST-Working-Group/BOOST/actions/workflows/release.yml)
           ```
           
           ## Documentation Links
           
           **Quick Links:**
           ```markdown
-          📚 [Documentation](https://carbondirect.github.io/BOOST/boost-spec.html) | 
-          🔍 [ERD Navigator](https://carbondirect.github.io/BOOST/erd-navigator/) | 
-          📋 [Schemas](https://carbondirect.github.io/BOOST/schema/) | 
-          🏷️ [Latest Release](https://github.com/carbondirect/BOOST/releases/latest)
+          📚 [Documentation](https://boost-working-group.github.io/BOOST/boost-spec.html) | 
+          🔍 [ERD Navigator](https://boost-working-group.github.io/BOOST/erd-navigator/) | 
+          📋 [Schemas](https://boost-working-group.github.io/BOOST/schema/) | 
+          🏷️ [Latest Release](https://github.com/BOOST-Working-Group/BOOST/releases/latest)
           ```
           EOF
           
@@ -129,14 +129,14 @@ jobs:
           echo '```markdown' >> $GITHUB_STEP_SUMMARY
           echo '# BOOST Data Standard' >> $GITHUB_STEP_SUMMARY
           echo '' >> $GITHUB_STEP_SUMMARY
-          echo '[![Build & Deploy](https://github.com/carbondirect/BOOST/actions/workflows/build-deploy.yml/badge.svg?branch=main)](https://github.com/carbondirect/BOOST/actions/workflows/build-deploy.yml)' >> $GITHUB_STEP_SUMMARY
-          echo '[![Schema Validation](https://github.com/carbondirect/BOOST/actions/workflows/schema-validation.yml/badge.svg?branch=main)](https://github.com/carbondirect/BOOST/actions/workflows/schema-validation.yml)' >> $GITHUB_STEP_SUMMARY
-          echo '[![Release](https://github.com/carbondirect/BOOST/actions/workflows/release.yml/badge.svg)](https://github.com/carbondirect/BOOST/actions/workflows/release.yml)' >> $GITHUB_STEP_SUMMARY
+          echo '[![Build & Deploy](https://github.com/BOOST-Working-Group/BOOST/actions/workflows/build-deploy.yml/badge.svg?branch=main)](https://github.com/BOOST-Working-Group/BOOST/actions/workflows/build-deploy.yml)' >> $GITHUB_STEP_SUMMARY
+          echo '[![Schema Validation](https://github.com/BOOST-Working-Group/BOOST/actions/workflows/schema-validation.yml/badge.svg?branch=main)](https://github.com/BOOST-Working-Group/BOOST/actions/workflows/schema-validation.yml)' >> $GITHUB_STEP_SUMMARY
+          echo '[![Release](https://github.com/BOOST-Working-Group/BOOST/actions/workflows/release.yml/badge.svg)](https://github.com/BOOST-Working-Group/BOOST/actions/workflows/release.yml)' >> $GITHUB_STEP_SUMMARY
           echo '' >> $GITHUB_STEP_SUMMARY
-          echo '📚 [Documentation](https://carbondirect.github.io/BOOST/boost-spec.html) | ' >> $GITHUB_STEP_SUMMARY
-          echo '🔍 [ERD Navigator](https://carbondirect.github.io/BOOST/erd-navigator/) | ' >> $GITHUB_STEP_SUMMARY
-          echo '📋 [Schemas](https://carbondirect.github.io/BOOST/schema/) | ' >> $GITHUB_STEP_SUMMARY
-          echo '🏷️ [Latest Release](https://github.com/carbondirect/BOOST/releases/latest)' >> $GITHUB_STEP_SUMMARY
+          echo '📚 [Documentation](https://boost-working-group.github.io/BOOST/boost-spec.html) | ' >> $GITHUB_STEP_SUMMARY
+          echo '🔍 [ERD Navigator](https://boost-working-group.github.io/BOOST/erd-navigator/) | ' >> $GITHUB_STEP_SUMMARY
+          echo '📋 [Schemas](https://boost-working-group.github.io/BOOST/schema/) | ' >> $GITHUB_STEP_SUMMARY
+          echo '🏷️ [Latest Release](https://github.com/BOOST-Working-Group/BOOST/releases/latest)' >> $GITHUB_STEP_SUMMARY
           echo '```' >> $GITHUB_STEP_SUMMARY
 
       - name: Commit badge documentation

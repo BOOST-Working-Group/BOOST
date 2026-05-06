@@ -7,7 +7,7 @@ This document provides comprehensive documentation for all GitHub Actions workfl
 The BOOST repository uses GitHub Actions to automate documentation building, validation, and release management. All workflows are containerized using a pre-built Docker image for fast, consistent builds.
 
 ### Key Features
-- **🐳 Docker Containerization**: All builds use `ghcr.io/carbondirect/boost/boost-builder:latest` for 4-6x faster execution
+- **🐳 Docker Containerization**: All builds use `ghcr.io/boost-working-group/boost/boost-builder:latest` for 4-6x faster execution
 - **🚀 Automatic Releases**: All semantic version tags trigger full release packages  
 - **✅ Schema Validation**: Comprehensive validation of 35+ entity schemas
 - **📄 Multi-Format Output**: HTML, PDF, and interactive ERD Navigator generation
@@ -88,7 +88,7 @@ This automated versioning ensures every BOOST documentation build has complete p
 
 **File**: `.github/workflows/release.yml`  
 **Trigger**: Push tags matching `v[0-9]+.[0-9]+.[0-9]+` (all semantic versions)  
-**Container**: `ghcr.io/carbondirect/boost/boost-builder:latest`
+**Container**: `ghcr.io/boost-working-group/boost/boost-builder:latest`
 
 ### Purpose
 Builds and publishes complete release packages for **all semantic version types** (major, minor, patch).
@@ -234,7 +234,7 @@ Version Type: **PATCH**
 
 **File**: `.github/workflows/build-deploy.yml`  
 **Trigger**: Push to main, develop, feature/*, fix/*, docs/* branches  
-**Container**: `ghcr.io/carbondirect/boost/boost-builder:latest`
+**Container**: `ghcr.io/boost-working-group/boost/boost-builder:latest`
 
 ### Purpose
 Builds development documentation and deploys to GitHub Pages for the main branch.
@@ -290,7 +290,7 @@ Builds development documentation and deploys to GitHub Pages for the main branch
    - Creates landing page with download links
    - Copies HTML documentation, ERD Navigator, and schema files  
    - Links to GitHub repository for schema browsing
-3. **GitHub Pages Deployment**: Publishes to `carbondirect.github.io/BOOST`
+3. **GitHub Pages Deployment**: Publishes to `boost-working-group.github.io/BOOST`
 
 ### Build Outputs
 
@@ -301,7 +301,7 @@ Builds development documentation and deploys to GitHub Pages for the main branch
 - Build statistics and validation reports
 
 #### Production Deployment (Main Branch Only)  
-- Live website at https://carbondirect.github.io/BOOST
+- Live website at https://boost-working-group.github.io/BOOST
 - Landing page with download options
 - Direct access to documentation and ERD Navigator
 - Schema file browsing via GitHub repository links
@@ -320,7 +320,7 @@ Maintains the pre-built Docker image used by all documentation build workflows.
 ### Features
 - **Automated Rebuilds**: Triggers when Dockerfile changes
 - **Multi-Tag Support**: Creates `latest`, `main`, and commit-specific tags
-- **GitHub Container Registry**: Publishes to `ghcr.io/carbondirect/boost/boost-builder`
+- **GitHub Container Registry**: Publishes to `ghcr.io/boost-working-group/boost/boost-builder`
 - **Build Caching**: Uses GitHub Actions cache for faster rebuilds
 
 ### Image Contents
@@ -345,7 +345,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     container:
-      image: ghcr.io/carbondirect/boost/boost-builder:latest
+      image: ghcr.io/boost-working-group/boost/boost-builder:latest
       options: --pull=missing
 ```
 
@@ -356,7 +356,7 @@ jobs:
 #### Test Documentation Build Locally
 ```bash
 # Clone and test development build
-git clone https://github.com/carbondirect/BOOST.git
+git clone https://github.com/BOOST-Working-Group/BOOST.git
 cd BOOST/drafts/current/specifications
 ./build-spec.sh
 
@@ -367,10 +367,10 @@ open boost-spec.html
 #### Test with Docker Container
 ```bash  
 # Pull the same container used in CI
-docker pull ghcr.io/carbondirect/boost/boost-builder:latest
+docker pull ghcr.io/boost-working-group/boost/boost-builder:latest
 
 # Run interactive container
-docker run -it --rm -v $(pwd):/workspace ghcr.io/carbondirect/boost/boost-builder:latest
+docker run -it --rm -v $(pwd):/workspace ghcr.io/boost-working-group/boost/boost-builder:latest
 
 # Inside container - test build
 cd /workspace/drafts/current/specifications  

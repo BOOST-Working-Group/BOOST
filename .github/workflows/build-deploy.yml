@@ -83,7 +83,7 @@ jobs:
     timeout-minutes: 15  # Prevent stuck builds - Docker should be ~2-3 min
     needs: extract-version
     container:
-      image: ghcr.io/carbondirect/boost/boost-builder:latest
+      image: ghcr.io/boost-working-group/boost/boost-builder:latest
       options: --pull=missing
       env:
         RELEASE_VERSION: ${{ needs.extract-version.outputs.version }}
@@ -594,7 +594,7 @@ jobs:
               <div class="version-info">
                   <strong>Current Version: ${{ needs.extract-version.outputs.version }}</strong> | 
                   Built: ${{ needs.extract-version.outputs.build-timestamp }} | 
-                  <a href="https://github.com/carbondirect/BOOST" style="color: inherit;">View on GitHub</a>
+                  <a href="https://github.com/BOOST-Working-Group/BOOST" style="color: inherit;">View on GitHub</a>
               </div>
               
               <div class="hero-section">
@@ -621,8 +621,8 @@ jobs:
           # Add other download links
           cat >> ./pages-content/index.html << EOF
                   <a href="./erd-navigator/">🔍 ERD Navigator</a>
-                  <a href="https://github.com/carbondirect/BOOST/tree/main/drafts/current/schema">📋 JSON Schemas</a>
-                  <a href="https://github.com/carbondirect/BOOST/issues?q=label%3Aplan">✅ Enhancement Planning</a>
+                  <a href="https://github.com/BOOST-Working-Group/BOOST/tree/main/drafts/current/schema">📋 JSON Schemas</a>
+                  <a href="https://github.com/BOOST-Working-Group/BOOST/issues?q=label%3Aplan">✅ Enhancement Planning</a>
               </div>
               
               <div class="recent-changes">
@@ -643,7 +643,7 @@ jobs:
               <div style="text-align: center; margin-top: 40px; padding: 20px; border-top: 1px solid #e1e4e8;">
                   <p style="margin: 0; color: #666;">
                       <strong>BOOST W3C Community Group</strong> | 
-                      <a href="https://github.com/carbondirect/BOOST">GitHub Repository</a> | 
+                      <a href="https://github.com/BOOST-Working-Group/BOOST">GitHub Repository</a> | 
                       <a href="https://www.w3.org/community/boost-01/">W3C Community Group</a>
                   </p>
               </div>

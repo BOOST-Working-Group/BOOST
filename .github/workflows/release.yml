@@ -32,7 +32,7 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 20  # Prevent stuck release builds - Docker should be ~3-5 min
     container:
-      image: ghcr.io/carbondirect/boost/boost-builder:latest
+      image: ghcr.io/boost-working-group/boost/boost-builder:latest
       options: --pull=missing
     outputs:
       version: ${{ steps.version-info.outputs.version }}
@@ -345,8 +345,8 @@ jobs:
           
           ## Links
           
-          - [BOOST GitHub Repository](https://github.com/carbondirect/BOOST)
-          - [Online Documentation](https://carbondirect.github.io/BOOST)
+          - [BOOST GitHub Repository](https://github.com/BOOST-Working-Group/BOOST)
+          - [Online Documentation](https://boost-working-group.github.io/BOOST)
           
           EOF
           
@@ -431,9 +431,9 @@ jobs:
           
           ## 🔗 Quick Links
           
-          - [📖 Online Documentation](https://carbondirect.github.io/BOOST/)
-          - [🔍 ERD Navigator](https://carbondirect.github.io/BOOST/erd-navigator/)
-          - [📋 Schema Files](https://carbondirect.github.io/BOOST/schema/)
+          - [📖 Online Documentation](https://boost-working-group.github.io/BOOST/)
+          - [🔍 ERD Navigator](https://boost-working-group.github.io/BOOST/erd-navigator/)
+          - [📋 Schema Files](https://boost-working-group.github.io/BOOST/schema/)
           
           ## 📋 Key Features
           
