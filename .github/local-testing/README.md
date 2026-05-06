@@ -139,7 +139,7 @@ Tests version analysis logic:
 TEST_VERSION=v3.0.0
 
 # Repository simulation
-GITHUB_REPOSITORY=carbondirect/BOOST
+GITHUB_REPOSITORY=BOOST-Working-Group/BOOST
 GITHUB_REF_NAME=main
 GITHUB_SHA=abc123456789
 ```

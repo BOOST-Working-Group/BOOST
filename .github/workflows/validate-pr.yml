@@ -280,7 +280,7 @@ jobs:
 
       - name: Install Bikeshed
         run: |
-          pip3 install bikeshed
+          pip3 install 'bikeshed<6'
           bikeshed update
 
       - name: Confirm PR version information

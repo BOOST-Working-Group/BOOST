@@ -78,7 +78,7 @@ jobs:
     timeout-minutes: 15  # Prevent stuck dev builds - Docker should be ~2-3 min
     needs: extract-version
     container:
-      image: ghcr.io/carbondirect/boost/boost-builder:latest
+      image: ghcr.io/boost-working-group/boost/boost-builder:latest
       options: --pull=missing
       env:
         RELEASE_VERSION: ${{ needs.extract-version.outputs.version }}
