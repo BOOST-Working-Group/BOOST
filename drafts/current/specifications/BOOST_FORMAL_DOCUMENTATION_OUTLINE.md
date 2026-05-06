@@ -24,7 +24,7 @@ Publication as a Community Group Report does not imply endorsement by the W3C Me
 
 This specification is primarily developed on GitHub. The best way to contribute to this specification is to:
 
-1. File issues and suggestions in the [BOOST GitHub repository](https://github.com/carbondirect/BOOST/issues)
+1. File issues and suggestions in the [BOOST GitHub repository](https://github.com/BOOST-Working-Group/BOOST/issues)
 2. Submit pull requests for specific changes
 3. Participate in community discussions via GitHub Discussions
 4. Join the W3C Community Group mailing list for broader discussions
@@ -246,7 +246,7 @@ All BOOST entity definitions MUST be provided as JSON Schema Draft-07 compliant 
 {
   "schema": {
     "$schema": "http://json-schema.org/draft-07/schema#",
-    "$id": "https://github.com/carbondirect/BOOST/schemas/entity-name",
+    "$id": "https://github.com/BOOST-Working-Group/BOOST/schemas/entity-name",
     "title": "Entity Name",
     "type": "object",
     "properties": { ... },
@@ -452,8 +452,8 @@ Special recognition to the contributors of the Interactive ERD Navigator, Python
 **Version:** 1.0  
 **Previous Version:** N/A  
 **Latest Version:** https://boost-standard.org/specifications/latest/  
-**Repository:** https://github.com/carbondirect/BOOST  
-**Test Suite:** https://github.com/carbondirect/BOOST/tree/main/tests  
+**Repository:** https://github.com/BOOST-Working-Group/BOOST  
+**Test Suite:** https://github.com/BOOST-Working-Group/BOOST/tree/main/tests  
 **Implementation Reports:** https://boost-standard.org/implementation-reports/
 
 **Copyright Notice:** Copyright © 2025 BOOST W3C Community Group. This work is licensed under the W3C Software and Document License.

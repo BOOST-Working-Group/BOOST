@@ -121,7 +121,7 @@ The `LCFSPathway` entity represents CARB-certified fuel pathways for California'
 <td>string (uri)
 <td>Yes
 <td>Unique URI identifier for JSON-LD
-<td>`https://github.com/carbondirect/BOOST/schemas/lcfs-pathway/CA-RD-2025-LMR-001`
+<td>`https://github.com/BOOST-Working-Group/BOOST/schemas/lcfs-pathway/CA-RD-2025-LMR-001`
 </tr>
 <tr>
 <td>`lastUpdated`

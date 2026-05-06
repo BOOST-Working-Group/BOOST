@@ -1,18 +1,18 @@
 {
   "@context": {
-    "boost": "https://github.com/carbondirect/BOOST/schemas#",
+    "boost": "https://github.com/BOOST-Working-Group/BOOST/schemas#",
     "schema": "http://schema.org/",
     "geo": "http://www.w3.org/2003/01/geo/wgs84_pos#"
   },
   "@graph": [
     {
       "@context": {
-        "boost": "https://github.com/carbondirect/BOOST/schemas#",
+        "boost": "https://github.com/BOOST-Working-Group/BOOST/schemas#",
         "schema": "http://schema.org/",
         "geo": "http://www.w3.org/2003/01/geo/wgs84_pos#"
       },
       "@type": "Organization",
-      "@id": "https://github.com/carbondirect/BOOST/schemas/organization/ORG-PACIFIC-FOREST-001",
+      "@id": "https://github.com/BOOST-Working-Group/BOOST/schemas/organization/ORG-PACIFIC-FOREST-001",
       "organizationId": "ORG-PACIFIC-FOREST-001",
       "organizationName": "Pacific Forest Products LLC",
       "organizationType": "OrganizationOrganizationtypeEnum.HARVESTER",
@@ -32,12 +32,12 @@
     },
     {
       "@context": {
-        "boost": "https://github.com/carbondirect/BOOST/schemas#",
+        "boost": "https://github.com/BOOST-Working-Group/BOOST/schemas#",
         "schema": "http://schema.org/",
         "geo": "http://www.w3.org/2003/01/geo/wgs84_pos#"
       },
       "@type": "Organization",
-      "@id": "https://github.com/carbondirect/BOOST/schemas/organization/ORG-GREENWOOD-MILL-001",
+      "@id": "https://github.com/BOOST-Working-Group/BOOST/schemas/organization/ORG-GREENWOOD-MILL-001",
       "organizationId": "ORG-GREENWOOD-MILL-001",
       "organizationName": "Greenwood Processing Mill",
       "organizationType": "OrganizationOrganizationtypeEnum.PROCESSOR",
@@ -57,12 +57,12 @@
     },
     {
       "@context": {
-        "boost": "https://github.com/carbondirect/BOOST/schemas#",
+        "boost": "https://github.com/BOOST-Working-Group/BOOST/schemas#",
         "schema": "http://schema.org/",
         "geo": "http://www.w3.org/2003/01/geo/wgs84_pos#"
       },
       "@type": "TraceableUnit",
-      "@id": "https://github.com/carbondirect/BOOST/schemas/traceable-unit/TRU-LOG-PILE-001",
+      "@id": "https://github.com/BOOST-Working-Group/BOOST/schemas/traceable-unit/TRU-LOG-PILE-001",
       "traceableUnitId": "TRU-LOG-PILE-001",
       "unitType": "TraceableUnitUnittypeEnum.PILE",
       "uniqueIdentifier": "RFID-001-A",
@@ -87,12 +87,12 @@
     },
     {
       "@context": {
-        "boost": "https://github.com/carbondirect/BOOST/schemas#",
+        "boost": "https://github.com/BOOST-Working-Group/BOOST/schemas#",
         "schema": "http://schema.org/",
         "geo": "http://www.w3.org/2003/01/geo/wgs84_pos#"
       },
       "@type": "TraceableUnit",
-      "@id": "https://github.com/carbondirect/BOOST/schemas/traceable-unit/TRU-LUMBER-BATCH-001",
+      "@id": "https://github.com/BOOST-Working-Group/BOOST/schemas/traceable-unit/TRU-LUMBER-BATCH-001",
       "traceableUnitId": "TRU-LUMBER-BATCH-001",
       "unitType": "TraceableUnitUnittypeEnum.PROCESSED_BATCH",
       "uniqueIdentifier": "BATCH-001-A",
@@ -117,12 +117,12 @@
     },
     {
       "@context": {
-        "boost": "https://github.com/carbondirect/BOOST/schemas#",
+        "boost": "https://github.com/BOOST-Working-Group/BOOST/schemas#",
         "schema": "http://schema.org/",
         "geo": "http://www.w3.org/2003/01/geo/wgs84_pos#"
       },
       "@type": "Transaction",
-      "@id": "https://github.com/carbondirect/BOOST/schemas/transaction/TXN-LUMBER-SALE-001",
+      "@id": "https://github.com/BOOST-Working-Group/BOOST/schemas/transaction/TXN-LUMBER-SALE-001",
       "transactionId": "TXN-LUMBER-SALE-001",
       "OrganizationId": "ORG-GREENWOOD-MILL-001",
       "CustomerId": "CUST-HOMEBUILDER-001",
@@ -150,12 +150,12 @@
     },
     {
       "@context": {
-        "boost": "https://github.com/carbondirect/BOOST/schemas#",
+        "boost": "https://github.com/BOOST-Working-Group/BOOST/schemas#",
         "schema": "http://schema.org/",
         "geo": "http://www.w3.org/2003/01/geo/wgs84_pos#"
       },
       "@type": "MaterialProcessing",
-      "@id": "https://github.com/carbondirect/BOOST/schemas/processing/PROC-SAWMILL-001",
+      "@id": "https://github.com/BOOST-Working-Group/BOOST/schemas/processing/PROC-SAWMILL-001",
       "processingId": "PROC-SAWMILL-001",
       "inputTraceableUnitId": "TRU-LOG-PILE-001",
       "outputTraceableUnitId": "TRU-LUMBER-BATCH-001",

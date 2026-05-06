@@ -1,7 +1,7 @@
 {
   "schema": {
     "$schema": "http://json-schema.org/draft-07/schema#",
-    "$id": "https://github.com/carbondirect/BOOST/schemas/bioram-pathway",
+    "$id": "https://github.com/BOOST-Working-Group/BOOST/schemas/bioram-pathway",
     "title": "BioRAM Pathway",
     "description": "California BioRAM program pathway for biomass power generation with fuel classification and efficiency attributes",
     "type": "object",

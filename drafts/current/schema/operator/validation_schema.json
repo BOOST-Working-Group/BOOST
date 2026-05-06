@@ -1,7 +1,7 @@
 {
   "schema": {
     "$schema": "http://json-schema.org/draft-07/schema#",
-    "$id": "https://github.com/carbondirect/BOOST/schemas/operator",
+    "$id": "https://github.com/BOOST-Working-Group/BOOST/schemas/operator",
     "type": "object",
     "title": "BOOST Operator Entity Validation Schema",
     "description": "Validation schema for personnel and operator management within the BOOST biomass chain of custody system",

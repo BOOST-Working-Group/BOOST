@@ -1,10 +1,10 @@
 {
   "@context": {
-    "boost": "https://github.com/carbondirect/BOOST/contexts/",
-    "bioram": "https://github.com/carbondirect/BOOST/contexts/bioram/"
+    "boost": "https://github.com/BOOST-Working-Group/BOOST/contexts/",
+    "bioram": "https://github.com/BOOST-Working-Group/BOOST/contexts/bioram/"
   },
   "@type": "BioramPathway",
-  "@id": "https://github.com/carbondirect/BOOST/schemas/bioram-pathway/BIORAM-PWR-2025-LMR-001",
+  "@id": "https://github.com/BOOST-Working-Group/BOOST/schemas/bioram-pathway/BIORAM-PWR-2025-LMR-001",
   "pathwayId": "BIORAM-PWR-2025-LMR-001",
   "fuelType": "lumber_mill_residual",
   "targetFacilityType": "biomass_power_plant",

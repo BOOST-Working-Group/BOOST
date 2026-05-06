@@ -93,7 +93,7 @@ The `ProductGroup` object represents a distinct category of materials or product
 <td>string (uri)
 <td>Yes
 <td>Unique URI identifier for JSON-LD
-<td>`https://github.com/carbondirect/BOOST/schemas/product-group/PG-001`
+<td>`https://github.com/BOOST-Working-Group/BOOST/schemas/product-group/PG-001`
 </tr>
 <tr>
 <td>`lastUpdated`

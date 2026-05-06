@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "$id": "https://github.com/carbondirect/BOOST/schemas/cross-entity-validation",
+  "$id": "https://github.com/BOOST-Working-Group/BOOST/schemas/cross-entity-validation",
   "title": "BOOST Cross-Entity Validation Framework",
   "description": "Comprehensive validation rules for entity relationships, foreign key integrity, and cross-entity business logic constraints",
   "type": "object",

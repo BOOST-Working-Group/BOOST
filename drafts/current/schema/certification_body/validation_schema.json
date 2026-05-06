@@ -1,7 +1,7 @@
 {
   "schema": {
     "$schema": "http://json-schema.org/draft-07/schema#",
-    "$id": "https://github.com/carbondirect/BOOST/schemas/certification_body",
+    "$id": "https://github.com/BOOST-Working-Group/BOOST/schemas/certification_body",
     "title": "CertificationBody",
     "description": "Certification Body entity representing independent organizations authorized to issue certificates",
     "type": "object",

@@ -690,7 +690,7 @@
             <p><strong>Structural Questions:</strong> Are these the right entities in the right relationships? Should any entities be consolidated or split? Are there missing supply chain stages or processes?</p>
             <p><strong>Implementation Considerations:</strong> Will this structure work well for real-world deployments? How does it compare to existing industry data models?</p>
             <div style="text-align: center; margin-top: 20px;">
-                <a href="https://github.com/carbondirect/BOOST/discussions/117" target="_blank" style="display: inline-block; padding: 12px 24px; background-color: #0969da; color: white; text-decoration: none; border-radius: 6px; font-weight: bold;">
+                <a href="https://github.com/BOOST-Working-Group/BOOST/discussions/117" target="_blank" style="display: inline-block; padding: 12px 24px; background-color: #0969da; color: white; text-decoration: none; border-radius: 6px; font-weight: bold;">
                     💬 Discuss Overall ERD Structure →
                 </a>
             </div>
@@ -703,7 +703,7 @@
             <p><strong>Examples:</strong> "How do I implement mass balance tracking?" or "What's the difference between Claim and VerificationStatement?" or "How does BOOST compare to other standards?"</p>
             <p><strong>Community Support:</strong> Get help from other stakeholders, implementers, and the BOOST working group.</p>
             <div style="text-align: center; margin-top: 20px;">
-                <a href="https://github.com/carbondirect/BOOST/discussions/categories/q-a" target="_blank" style="display: inline-block; padding: 12px 24px; background-color: #6f42c1; color: white; text-decoration: none; border-radius: 6px; font-weight: bold;">
+                <a href="https://github.com/BOOST-Working-Group/BOOST/discussions/categories/q-a" target="_blank" style="display: inline-block; padding: 12px 24px; background-color: #6f42c1; color: white; text-decoration: none; border-radius: 6px; font-weight: bold;">
                     🙋 Ask a Question →
                 </a>
             </div>
@@ -712,8 +712,8 @@
         <div class="footer">
             <p>This ERD navigator is part of the BOOST data standard development process.<br>
             Your feedback helps ensure the standard meets real-world biomass chain of custody needs.</p>
-            <p><a href="https://github.com/carbondirect/BOOST">📂 View full repository</a> | 
-            <a href="https://github.com/carbondirect/BOOST/issues/61">🎯 Parent Issue #61</a></p>
+            <p><a href="https://github.com/BOOST-Working-Group/BOOST">📂 View full repository</a> | 
+            <a href="https://github.com/BOOST-Working-Group/BOOST/issues/61">🎯 Parent Issue #61</a></p>
         </div>
     </div>
 
@@ -772,7 +772,7 @@
         function getSchemaBasePath() {
             // Check if we're on GitHub Pages or local development
             const hostname = window.location.hostname;
-            if (hostname === 'carbondirect.github.io' || hostname.endsWith('.github.io')) {
+            if (hostname.endsWith('.github.io')) {
                 return '../schema'; // GitHub Pages path
             } else {
                 return '../drafts/current/schema'; // Local development path
@@ -2026,41 +2026,41 @@
                 
                 // Entity to discussion URL mapping
                 const discussionUrls = {
-                    'TraceableUnit': 'https://github.com/carbondirect/BOOST/discussions/166',
-                    'GeographicData': 'https://github.com/carbondirect/BOOST/discussions/167',
-                    'TrackingPoint': 'https://github.com/carbondirect/BOOST/discussions/168',
-                    'MeasurementRecord': 'https://github.com/carbondirect/BOOST/discussions/169',
-                    'LocationHistory': 'https://github.com/carbondirect/BOOST/discussions/170',
-                    'DataReconciliation': 'https://github.com/carbondirect/BOOST/discussions/171',
-                    'SpeciesComponent': 'https://github.com/carbondirect/BOOST/discussions/172',
-                    'MaterialProcessing': 'https://github.com/carbondirect/BOOST/discussions/173',
-                    'ProcessingHistory': 'https://github.com/carbondirect/BOOST/discussions/174',
-                    'MoistureContent': 'https://github.com/carbondirect/BOOST/discussions/175',
-                    'Transaction': 'https://github.com/carbondirect/BOOST/discussions/176',
-                    'Operator': 'https://github.com/carbondirect/BOOST/discussions/177',
-                    'SupplyBase': 'https://github.com/carbondirect/BOOST/discussions/178',
-                    'BiometricIdentifier': 'https://github.com/carbondirect/BOOST/discussions/179',
+                    'TraceableUnit': 'https://github.com/BOOST-Working-Group/BOOST/discussions/166',
+                    'GeographicData': 'https://github.com/BOOST-Working-Group/BOOST/discussions/167',
+                    'TrackingPoint': 'https://github.com/BOOST-Working-Group/BOOST/discussions/168',
+                    'MeasurementRecord': 'https://github.com/BOOST-Working-Group/BOOST/discussions/169',
+                    'LocationHistory': 'https://github.com/BOOST-Working-Group/BOOST/discussions/170',
+                    'DataReconciliation': 'https://github.com/BOOST-Working-Group/BOOST/discussions/171',
+                    'SpeciesComponent': 'https://github.com/BOOST-Working-Group/BOOST/discussions/172',
+                    'MaterialProcessing': 'https://github.com/BOOST-Working-Group/BOOST/discussions/173',
+                    'ProcessingHistory': 'https://github.com/BOOST-Working-Group/BOOST/discussions/174',
+                    'MoistureContent': 'https://github.com/BOOST-Working-Group/BOOST/discussions/175',
+                    'Transaction': 'https://github.com/BOOST-Working-Group/BOOST/discussions/176',
+                    'Operator': 'https://github.com/BOOST-Working-Group/BOOST/discussions/177',
+                    'SupplyBase': 'https://github.com/BOOST-Working-Group/BOOST/discussions/178',
+                    'BiometricIdentifier': 'https://github.com/BOOST-Working-Group/BOOST/discussions/179',
                     // Existing discussions for other entities
-                    'SupplyBaseReport': 'https://github.com/carbondirect/BOOST/discussions/106',
-                    'ProductGroup': 'https://github.com/carbondirect/BOOST/discussions/105',
-                    'Material': 'https://github.com/carbondirect/BOOST/discussions/94',
-                    'Organization': 'https://github.com/carbondirect/BOOST/discussions/90',
-                    'Customer': 'https://github.com/carbondirect/BOOST/discussions/96',
-                    'Supplier': 'https://github.com/carbondirect/BOOST/discussions/95',
-                    'EnergyCarbonData': 'https://github.com/carbondirect/BOOST/discussions/101',
-                    'TransactionBatch': 'https://github.com/carbondirect/BOOST/discussions/98',
-                    'SalesDeliveryDocument': 'https://github.com/carbondirect/BOOST/discussions/100',
-                    'CertificationScheme': 'https://github.com/carbondirect/BOOST/discussions/91',
-                    'Certificate': 'https://github.com/carbondirect/BOOST/discussions/92',
-                    'CertificationBody': 'https://github.com/carbondirect/BOOST/discussions/93',
-                    'Audit': 'https://github.com/carbondirect/BOOST/discussions/107',
-                    'VerificationStatement': 'https://github.com/carbondirect/BOOST/discussions/103',
-                    'MassBalanceAccount': 'https://github.com/carbondirect/BOOST/discussions/104',
-                    'Claim': 'https://github.com/carbondirect/BOOST/discussions/99',
-                    'DTSTransaction': 'https://github.com/carbondirect/BOOST/discussions/97'
+                    'SupplyBaseReport': 'https://github.com/BOOST-Working-Group/BOOST/discussions/106',
+                    'ProductGroup': 'https://github.com/BOOST-Working-Group/BOOST/discussions/105',
+                    'Material': 'https://github.com/BOOST-Working-Group/BOOST/discussions/94',
+                    'Organization': 'https://github.com/BOOST-Working-Group/BOOST/discussions/90',
+                    'Customer': 'https://github.com/BOOST-Working-Group/BOOST/discussions/96',
+                    'Supplier': 'https://github.com/BOOST-Working-Group/BOOST/discussions/95',
+                    'EnergyCarbonData': 'https://github.com/BOOST-Working-Group/BOOST/discussions/101',
+                    'TransactionBatch': 'https://github.com/BOOST-Working-Group/BOOST/discussions/98',
+                    'SalesDeliveryDocument': 'https://github.com/BOOST-Working-Group/BOOST/discussions/100',
+                    'CertificationScheme': 'https://github.com/BOOST-Working-Group/BOOST/discussions/91',
+                    'Certificate': 'https://github.com/BOOST-Working-Group/BOOST/discussions/92',
+                    'CertificationBody': 'https://github.com/BOOST-Working-Group/BOOST/discussions/93',
+                    'Audit': 'https://github.com/BOOST-Working-Group/BOOST/discussions/107',
+                    'VerificationStatement': 'https://github.com/BOOST-Working-Group/BOOST/discussions/103',
+                    'MassBalanceAccount': 'https://github.com/BOOST-Working-Group/BOOST/discussions/104',
+                    'Claim': 'https://github.com/BOOST-Working-Group/BOOST/discussions/99',
+                    'DTSTransaction': 'https://github.com/BOOST-Working-Group/BOOST/discussions/97'
                 };
                 
-                const discussionUrl = discussionUrls[entity.name] || 'https://github.com/carbondirect/BOOST/discussions';
+                const discussionUrl = discussionUrls[entity.name] || 'https://github.com/BOOST-Working-Group/BOOST/discussions';
                 window.open(discussionUrl, '_blank');
             });
 

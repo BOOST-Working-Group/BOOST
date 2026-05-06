@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "$id": "https://github.com/carbondirect/BOOST/examples/validation-test-suite",
+  "$id": "https://github.com/BOOST-Working-Group/BOOST/examples/validation-test-suite",
   "title": "BOOST Comprehensive Validation Test Suite",
   "description": "Complete test cases for validating BOOST data integrity, business logic, and compliance rules",
   "type": "object",

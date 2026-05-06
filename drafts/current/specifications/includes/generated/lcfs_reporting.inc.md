@@ -283,7 +283,7 @@ The `LCFSReporting` entity represents quarterly compliance reports submitted by 
 <td>string (uri)
 <td>Yes
 <td>Unique URI identifier for JSON-LD
-<td>`https://github.com/carbondirect/BOOST/schemas/lcfs-reporting/LCFS-RPT-2025-Q1-PACIFIC001`
+<td>`https://github.com/BOOST-Working-Group/BOOST/schemas/lcfs-reporting/LCFS-RPT-2025-Q1-PACIFIC001`
 </tr>
 <tr>
 <td>`lastUpdated`

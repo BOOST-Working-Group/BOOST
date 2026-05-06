@@ -41,7 +41,7 @@ BOOST is developed through the [BOOST W3C Community Group](https://www.w3.org/co
 ## Participation and Feedback ## {#participation}
 
 **How to Contribute:**
-- **GitHub Repository:** [github.com/carbondirect/BOOST](https://github.com/carbondirect/BOOST)
+- **GitHub Repository:** [github.com/BOOST-Working-Group/BOOST](https://github.com/BOOST-Working-Group/BOOST)
 - **Issues and Feedback:** Submit via GitHub Issues for technical discussions
 - **Community Group:** Join the [BOOST W3C Community Group](https://www.w3.org/community/boost-01/)
 - **Interactive Tools:** Use the [ERD Navigator](erd-navigator/index.html) to explore and provide schema feedback

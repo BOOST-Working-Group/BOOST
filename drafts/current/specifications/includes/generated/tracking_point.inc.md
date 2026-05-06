@@ -143,7 +143,7 @@ The `TrackingPoint` entity implements the critical tracking points (harvest site
 <td>string (uri)
 <td>Yes
 <td>Unique URI identifier for JSON-LD
-<td>`https://github.com/carbondirect/BOOST/schemas/tracking-point/TP-001`
+<td>`https://github.com/BOOST-Working-Group/BOOST/schemas/tracking-point/TP-001`
 </tr>
 <tr>
 <td>`lastUpdated`

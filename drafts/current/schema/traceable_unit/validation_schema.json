@@ -1,7 +1,7 @@
 {
   "schema": {
     "$schema": "http://json-schema.org/draft-07/schema#",
-    "$id": "https://github.com/carbondirect/BOOST/schemas/traceable-unit",
+    "$id": "https://github.com/BOOST-Working-Group/BOOST/schemas/traceable-unit",
     "title": "Traceable Unit",
     "description": "Unique biomass tracking unit with BOOST traceability system integration",
     "type": "object",

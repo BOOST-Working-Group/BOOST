@@ -242,7 +242,7 @@ The `LocationHistory` entity implements comprehensive location history tracking 
 <td>string (uri)
 <td>Yes
 <td>Unique URI identifier for JSON-LD
-<td>`https://github.com/carbondirect/BOOST/schemas/location-history/LH-001`
+<td>`https://github.com/BOOST-Working-Group/BOOST/schemas/location-history/LH-001`
 </tr>
 <tr>
 <td>`lastUpdated`

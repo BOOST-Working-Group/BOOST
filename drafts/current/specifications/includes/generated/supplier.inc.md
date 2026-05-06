@@ -154,7 +154,7 @@ The `Supplier` entity represents organizations that provide biomass materials, w
 <td>string (uri)
 <td>Yes
 <td>Unique URI identifier for JSON-LD
-<td>`https://github.com/carbondirect/BOOST/schemas/supplier/SUPP-001`
+<td>`https://github.com/BOOST-Working-Group/BOOST/schemas/supplier/SUPP-001`
 </tr>
 </tbody>
 </table>

@@ -100,7 +100,7 @@ The `BiometricIdentifier` entity provides optical biometric identification for T
 <td>string (uri)
 <td>Yes
 <td>Unique URI identifier for JSON-LD
-<td>`https://github.com/carbondirect/BOOST/schemas/biometric-identifier/BIO-001`
+<td>`https://github.com/BOOST-Working-Group/BOOST/schemas/biometric-identifier/BIO-001`
 </tr>
 <tr>
 <td>`lastUpdated`

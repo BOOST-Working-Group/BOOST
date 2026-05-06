@@ -31,10 +31,10 @@ def test_bioram_pathway_validation():
     
     # Test valid BioRAM pathway
     valid_pathway = {
-        '@context': {'boost': 'https://github.com/carbondirect/BOOST/contexts/'},
+        '@context': {'boost': 'https://github.com/BOOST-Working-Group/BOOST/contexts/'},
         '@type': 'BioramPathway',
         '@type': 'BioramPathway',
-                '@id': 'https://github.com/carbondirect/BOOST/schemas/bioram-pathway/BIORAM-PWR-2025-LMR-001',
+                '@id': 'https://github.com/BOOST-Working-Group/BOOST/schemas/bioram-pathway/BIORAM-PWR-2025-LMR-001',
         'pathwayId': 'BIORAM-PWR-2025-LMR-001',
         'fuelType': 'lumber_mill_residual',
         'targetFacilityType': 'biomass_power_plant',
@@ -90,10 +90,10 @@ def test_bioram_reporting_validation():
     
     # Test valid BioRAM report
     valid_report = {
-        '@context': {'boost': 'https://github.com/carbondirect/BOOST/contexts/'},
+        '@context': {'boost': 'https://github.com/BOOST-Working-Group/BOOST/contexts/'},
         '@type': 'BioramReporting',
         '@type': 'BioramReporting',
-                '@id': 'https://github.com/carbondirect/BOOST/schemas/bioram-reporting/BIORAM-RPT-2025-Q3-SHWD001',
+                '@id': 'https://github.com/BOOST-Working-Group/BOOST/schemas/bioram-reporting/BIORAM-RPT-2025-Q3-SHWD001',
         'reportingId': 'BIORAM-RPT-2025-Q3-SHWD001',
         'facilityEntityId': 'ORG-SHERWOOD-POWER-001',
         'reportingPeriod': '2025-Q3',
@@ -150,9 +150,9 @@ def test_bioram_transaction_validation():
     
     # Test valid BioRAM transaction
     valid_transaction = {
-        '@context': {'boost': 'https://github.com/carbondirect/BOOST/contexts/'},
+        '@context': {'boost': 'https://github.com/BOOST-Working-Group/BOOST/contexts/'},
         '@type': 'Transaction',
-                '@id': 'https://github.com/carbondirect/BOOST/schemas/transaction/TXN-BIORAM-001',
+                '@id': 'https://github.com/BOOST-Working-Group/BOOST/schemas/transaction/TXN-BIORAM-001',
         'transactionId': 'TXN-BIORAM-001',
         'OrganizationId': 'ORG-ANDERSON-MILLS-001',
         'CustomerId': 'CUST-SHERWOOD-POWER-001',
@@ -258,9 +258,9 @@ def test_bioram_organization_validation():
     
     # Test valid BioRAM organization
     valid_organization = {
-        '@context': {'boost': 'https://github.com/carbondirect/BOOST/contexts/'},
+        '@context': {'boost': 'https://github.com/BOOST-Working-Group/BOOST/contexts/'},
         '@type': 'Organization',
-                '@id': 'https://github.com/carbondirect/BOOST/schemas/organization/ORG-SHERWOOD-POWER-001',
+                '@id': 'https://github.com/BOOST-Working-Group/BOOST/schemas/organization/ORG-SHERWOOD-POWER-001',
         'organizationId': 'ORG-SHERWOOD-POWER-001',
         'organizationName': 'Sherwood Power Station',
         'organizationType': 'producer',
@@ -327,9 +327,9 @@ def test_comprehensive_bioram_validation():
     entities = {
         'bioram_pathway': [
             {
-                '@context': {'boost': 'https://github.com/carbondirect/BOOST/contexts/'},
+                '@context': {'boost': 'https://github.com/BOOST-Working-Group/BOOST/contexts/'},
                 '@type': 'BioramPathway',
-                '@id': 'https://github.com/carbondirect/BOOST/schemas/bioram-pathway/BIORAM-PWR-2025-LMR-001',
+                '@id': 'https://github.com/BOOST-Working-Group/BOOST/schemas/bioram-pathway/BIORAM-PWR-2025-LMR-001',
                 'pathwayId': 'BIORAM-PWR-2025-LMR-001',
                 'fuelType': 'lumber_mill_residual',
                 'targetFacilityType': 'biomass_power_plant',
@@ -341,10 +341,10 @@ def test_comprehensive_bioram_validation():
         ],
         'bioram_reporting': [
             {
-                '@context': {'boost': 'https://github.com/carbondirect/BOOST/contexts/'},
+                '@context': {'boost': 'https://github.com/BOOST-Working-Group/BOOST/contexts/'},
                 '@type': 'BioramReporting',
         '@type': 'BioramReporting',
-                '@id': 'https://github.com/carbondirect/BOOST/schemas/bioram-reporting/BIORAM-RPT-2025-Q3-SHWD001',
+                '@id': 'https://github.com/BOOST-Working-Group/BOOST/schemas/bioram-reporting/BIORAM-RPT-2025-Q3-SHWD001',
                 'reportingId': 'BIORAM-RPT-2025-Q3-SHWD001',
                 'facilityEntityId': 'ORG-SHERWOOD-POWER-001',
                 'reportingPeriod': '2025-Q3',
@@ -356,9 +356,9 @@ def test_comprehensive_bioram_validation():
         ],
         'organization': [
             {
-                '@context': {'boost': 'https://github.com/carbondirect/BOOST/contexts/'},
+                '@context': {'boost': 'https://github.com/BOOST-Working-Group/BOOST/contexts/'},
                 '@type': 'Organization',
-                '@id': 'https://github.com/carbondirect/BOOST/schemas/organization/ORG-SHERWOOD-POWER-001',
+                '@id': 'https://github.com/BOOST-Working-Group/BOOST/schemas/organization/ORG-SHERWOOD-POWER-001',
                 'organizationId': 'ORG-SHERWOOD-POWER-001',
                 'organizationName': 'Sherwood Power Station',
                 'organizationType': 'producer',
@@ -369,9 +369,9 @@ def test_comprehensive_bioram_validation():
         ],
         'transaction': [
             {
-                '@context': {'boost': 'https://github.com/carbondirect/BOOST/contexts/'},
+                '@context': {'boost': 'https://github.com/BOOST-Working-Group/BOOST/contexts/'},
                 '@type': 'Transaction',
-                '@id': 'https://github.com/carbondirect/BOOST/schemas/transaction/TXN-BIORAM-001',
+                '@id': 'https://github.com/BOOST-Working-Group/BOOST/schemas/transaction/TXN-BIORAM-001',
                 'transactionId': 'TXN-BIORAM-001',
                 'OrganizationId': 'ORG-ANDERSON-MILLS-001',
                 'CustomerId': 'CUST-SHERWOOD-POWER-001',
@@ -435,8 +435,8 @@ def test_bioram_pydantic_model_integration():
     try:
         # Test creating BioRAM models directly
         pathway = BioramPathway(
-            context={'boost': 'https://github.com/carbondirect/BOOST/contexts/'},
-            id='https://github.com/carbondirect/BOOST/schemas/bioram-pathway/BIORAM-PWR-2025-LMR-001',
+            context={'boost': 'https://github.com/BOOST-Working-Group/BOOST/contexts/'},
+            id='https://github.com/BOOST-Working-Group/BOOST/schemas/bioram-pathway/BIORAM-PWR-2025-LMR-001',
             pathwayId='BIORAM-PWR-2025-LMR-001',
             fuelType=FuelType.LUMBER_MILL_RESIDUAL,
             targetFacilityType=FacilityType.BIOMASS_POWER_PLANT,
@@ -448,8 +448,8 @@ def test_bioram_pydantic_model_integration():
         print("✓ BioramPathway model creation: PASSED")
         
         reporting = BioramReporting(
-            context={'boost': 'https://github.com/carbondirect/BOOST/contexts/'},
-            id='https://github.com/carbondirect/BOOST/schemas/bioram-reporting/BIORAM-RPT-2025-Q3-SHWD001',
+            context={'boost': 'https://github.com/BOOST-Working-Group/BOOST/contexts/'},
+            id='https://github.com/BOOST-Working-Group/BOOST/schemas/bioram-reporting/BIORAM-RPT-2025-Q3-SHWD001',
             reportingId='BIORAM-RPT-2025-Q3-SHWD001',
             facilityEntityId='ORG-SHERWOOD-POWER-001',
             reportingPeriod='2025-Q3',
@@ -462,8 +462,8 @@ def test_bioram_pydantic_model_integration():
         
         # Test enhanced Transaction with BioRAM fields
         transaction = Transaction(
-            context={'boost': 'https://github.com/carbondirect/BOOST/contexts/'},
-            id='https://github.com/carbondirect/BOOST/schemas/transaction/TXN-BIORAM-001',
+            context={'boost': 'https://github.com/BOOST-Working-Group/BOOST/contexts/'},
+            id='https://github.com/BOOST-Working-Group/BOOST/schemas/transaction/TXN-BIORAM-001',
             transactionId='TXN-BIORAM-001',
             OrganizationId='ORG-ANDERSON-MILLS-001',
             CustomerId='CUST-SHERWOOD-POWER-001',
@@ -479,8 +479,8 @@ def test_bioram_pydantic_model_integration():
         
         # Test enhanced Organization with BioRAM fields
         organization = Organization(
-            context={'boost': 'https://github.com/carbondirect/BOOST/contexts/'},
-            id='https://github.com/carbondirect/BOOST/schemas/organization/ORG-SHERWOOD-POWER-001',
+            context={'boost': 'https://github.com/BOOST-Working-Group/BOOST/contexts/'},
+            id='https://github.com/BOOST-Working-Group/BOOST/schemas/organization/ORG-SHERWOOD-POWER-001',
             organizationId='ORG-SHERWOOD-POWER-001',
             organizationName='Sherwood Power Station',
             organizationType=OrganizationType.PRODUCER,

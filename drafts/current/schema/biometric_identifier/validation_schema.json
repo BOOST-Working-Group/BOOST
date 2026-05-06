@@ -1,7 +1,7 @@
 {
   "schema": {
     "$schema": "http://json-schema.org/draft-07/schema#",
-    "$id": "https://github.com/carbondirect/BOOST/schemas/biometric-identifier",
+    "$id": "https://github.com/BOOST-Working-Group/BOOST/schemas/biometric-identifier",
     "type": "object",
     "properties": {
       "@context": {

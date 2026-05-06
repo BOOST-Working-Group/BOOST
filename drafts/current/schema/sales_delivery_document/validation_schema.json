@@ -1,7 +1,7 @@
 {
   "schema": {
     "$schema": "http://json-schema.org/draft-07/schema#",
-    "$id": "https://github.com/carbondirect/BOOST/schemas/sales-delivery-document",
+    "$id": "https://github.com/BOOST-Working-Group/BOOST/schemas/sales-delivery-document",
     "type": "object",
     "properties": {
       "@context": {

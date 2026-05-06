@@ -107,7 +107,7 @@ The `SupplyBaseReport` entity manages sustainability reporting documentation for
 <td>string (uri)
 <td>Yes
 <td>Unique URI identifier for JSON-LD
-<td>`https://github.com/carbondirect/BOOST/schemas/supply-base-report/SBR-001`
+<td>`https://github.com/BOOST-Working-Group/BOOST/schemas/supply-base-report/SBR-001`
 </tr>
 </tbody>
 </table>

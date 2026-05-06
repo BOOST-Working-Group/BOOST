@@ -1,10 +1,10 @@
 {
   "@context": {
-    "boost": "https://github.com/carbondirect/BOOST/contexts/",
-    "bioram": "https://github.com/carbondirect/BOOST/contexts/bioram/"
+    "boost": "https://github.com/BOOST-Working-Group/BOOST/contexts/",
+    "bioram": "https://github.com/BOOST-Working-Group/BOOST/contexts/bioram/"
   },
   "@type": "BioramReporting",
-  "@id": "https://github.com/carbondirect/BOOST/schemas/bioram-reporting/BIORAM-RPT-2025-Q3-SHWD001",
+  "@id": "https://github.com/BOOST-Working-Group/BOOST/schemas/bioram-reporting/BIORAM-RPT-2025-Q3-SHWD001",
   "reportingId": "BIORAM-RPT-2025-Q3-SHWD001",
   "facilityEntityId": "ORG-SHERWOOD-POWER-001",
   "bioramContractId": "BR-RFO-2024-01-A",

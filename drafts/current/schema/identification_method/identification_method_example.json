@@ -1,10 +1,10 @@
 [
   {
     "@context": {
-      "@vocab": "https://github.com/carbondirect/BOOST/contexts/identification-method"
+      "@vocab": "https://github.com/BOOST-Working-Group/BOOST/contexts/identification-method"
     },
     "@type": "IdentificationMethod",
-    "@id": "https://github.com/carbondirect/BOOST/schemas/identification-method/IM-RFID-001",
+    "@id": "https://github.com/BOOST-Working-Group/BOOST/schemas/identification-method/IM-RFID-001",
     "methodId": "IM-RFID-001",
     "methodType": "rfid",
     "technologyReadinessLevel": 9,
@@ -38,10 +38,10 @@
   },
   {
     "@context": {
-      "@vocab": "https://github.com/carbondirect/BOOST/contexts/identification-method"
+      "@vocab": "https://github.com/BOOST-Working-Group/BOOST/contexts/identification-method"
     },
     "@type": "IdentificationMethod", 
-    "@id": "https://github.com/carbondirect/BOOST/schemas/identification-method/IM-BIOMETRIC-001",
+    "@id": "https://github.com/BOOST-Working-Group/BOOST/schemas/identification-method/IM-BIOMETRIC-001",
     "methodId": "IM-BIOMETRIC-001",
     "methodType": "biometric",
     "technologyReadinessLevel": 6,
@@ -67,10 +67,10 @@
   },
   {
     "@context": {
-      "@vocab": "https://github.com/carbondirect/BOOST/contexts/identification-method"
+      "@vocab": "https://github.com/BOOST-Working-Group/BOOST/contexts/identification-method"
     },
     "@type": "IdentificationMethod",
-    "@id": "https://github.com/carbondirect/BOOST/schemas/identification-method/IM-QR-001", 
+    "@id": "https://github.com/BOOST-Working-Group/BOOST/schemas/identification-method/IM-QR-001", 
     "methodId": "IM-QR-001",
     "methodType": "qr_code",
     "technologyReadinessLevel": 9,
@@ -106,10 +106,10 @@
   },
   {
     "@context": {
-      "@vocab": "https://github.com/carbondirect/BOOST/contexts/identification-method"
+      "@vocab": "https://github.com/BOOST-Working-Group/BOOST/contexts/identification-method"
     },
     "@type": "IdentificationMethod",
-    "@id": "https://github.com/carbondirect/BOOST/schemas/identification-method/IM-MANUAL-001",
+    "@id": "https://github.com/BOOST-Working-Group/BOOST/schemas/identification-method/IM-MANUAL-001",
     "methodId": "IM-MANUAL-001", 
     "methodType": "manual_id",
     "technologyReadinessLevel": 9,
@@ -139,10 +139,10 @@
   },
   {
     "@context": {
-      "@vocab": "https://github.com/carbondirect/BOOST/contexts/identification-method"
+      "@vocab": "https://github.com/BOOST-Working-Group/BOOST/contexts/identification-method"
     },
     "@type": "IdentificationMethod",
-    "@id": "https://github.com/carbondirect/BOOST/schemas/identification-method/IM-HYBRID-001",
+    "@id": "https://github.com/BOOST-Working-Group/BOOST/schemas/identification-method/IM-HYBRID-001",
     "methodId": "IM-HYBRID-001",
     "methodType": "hybrid", 
     "technologyReadinessLevel": 8,

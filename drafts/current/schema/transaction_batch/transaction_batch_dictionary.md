@@ -191,7 +191,7 @@ The `TransactionBatch` entity manages physical material batches within business 
 <td>string (uri)
 <td>Yes
 <td>Unique URI identifier for JSON-LD
-<td>`https://github.com/carbondirect/BOOST/schemas/transaction-batch/TB-001`
+<td>`https://github.com/BOOST-Working-Group/BOOST/schemas/transaction-batch/TB-001`
 </tr>
 </tbody>
 </table>

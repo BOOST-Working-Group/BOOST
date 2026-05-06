@@ -1,7 +1,7 @@
 {
   "schema": {
     "$schema": "http://json-schema.org/draft-07/schema#",
-    "$id": "https://github.com/carbondirect/BOOST/schemas/bioram-reporting",
+    "$id": "https://github.com/BOOST-Working-Group/BOOST/schemas/bioram-reporting",
     "title": "BioRAM Reporting",
     "description": "Quarterly BioRAM compliance report for biomass power generation facilities with fuel sourcing and efficiency tracking",
     "type": "object",

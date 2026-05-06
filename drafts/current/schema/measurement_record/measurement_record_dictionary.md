@@ -121,7 +121,7 @@ The `MeasurementRecord` entity captures measurements at different tracking point
 <td>string (uri)
 <td>Yes
 <td>Unique URI identifier for JSON-LD
-<td>`https://github.com/carbondirect/BOOST/schemas/measurement-record/MR-001`
+<td>`https://github.com/BOOST-Working-Group/BOOST/schemas/measurement-record/MR-001`
 </tr>
 <tr>
 <td>`lastUpdated`

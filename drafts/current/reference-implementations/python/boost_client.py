@@ -32,7 +32,7 @@ class BOOSTClient:
             context_url: URL to JSON-LD context (optional)
             schema_path: Path to BOOST schema directory (optional)
         """
-        self.context_url = context_url or "https://github.com/carbondirect/BOOST/context"
+        self.context_url = context_url or "https://github.com/BOOST-Working-Group/BOOST/context"
         self.schema_loader = SchemaLoader(schema_path)
         self.validator = DynamicBOOSTValidator(self.schema_loader)
         
@@ -47,7 +47,7 @@ class BOOSTClient:
         # Default context for JSON-LD
         self.default_context = {
             "@context": {
-                "boost": "https://github.com/carbondirect/BOOST/schemas#",
+                "boost": "https://github.com/BOOST-Working-Group/BOOST/schemas#",
                 "schema": "http://schema.org/",
                 "geo": "http://www.w3.org/2003/01/geo/wgs84_pos#"
             }
@@ -80,7 +80,7 @@ class BOOSTClient:
         org_data = {
             "@context": self.default_context["@context"],
             "@type": "Organization",
-            "@id": f"https://github.com/carbondirect/BOOST/schemas/organization/{organization_id}",
+            "@id": f"https://github.com/BOOST-Working-Group/BOOST/schemas/organization/{organization_id}",
             "organizationId": organization_id,
             "organizationName": name,
             "organizationType": org_type,
@@ -130,7 +130,7 @@ class BOOSTClient:
         tru_data = {
             "@context": self.default_context["@context"],
             "@type": "TraceableUnit", 
-            "@id": f"https://github.com/carbondirect/BOOST/schemas/traceable-unit/{traceable_unit_id}",
+            "@id": f"https://github.com/BOOST-Working-Group/BOOST/schemas/traceable-unit/{traceable_unit_id}",
             "traceableUnitId": traceable_unit_id,
             "unitType": unit_type,
             # Required fields with sensible defaults using correct patterns
@@ -183,7 +183,7 @@ class BOOSTClient:
         transaction_data = {
             "@context": self.default_context["@context"],
             "@type": "Transaction",
-            "@id": f"https://github.com/carbondirect/BOOST/schemas/transaction/{transaction_id}",
+            "@id": f"https://github.com/BOOST-Working-Group/BOOST/schemas/transaction/{transaction_id}",
             "transactionId": transaction_id,
             "OrganizationId": organization_id,
             "CustomerId": customer_id,
@@ -230,7 +230,7 @@ class BOOSTClient:
         processing_data = {
             "@context": self.default_context["@context"],
             "@type": "MaterialProcessing",
-            "@id": f"https://github.com/carbondirect/BOOST/schemas/processing/{processing_id}",
+            "@id": f"https://github.com/BOOST-Working-Group/BOOST/schemas/processing/{processing_id}",
             "processingId": processing_id,
             "inputTraceableUnitId": input_tru_id,
             "outputTraceableUnitId": output_tru_id,
@@ -280,7 +280,7 @@ class BOOSTClient:
         claim_data = {
             "@context": self.default_context["@context"],
             "@type": "Claim",
-            "@id": f"https://github.com/carbondirect/BOOST/schemas/claim/{claim_id}",
+            "@id": f"https://github.com/BOOST-Working-Group/BOOST/schemas/claim/{claim_id}",
             "claimId": claim_id,
             "traceableUnitId": traceable_unit_id,
             "claimType": claim_type,
@@ -328,7 +328,7 @@ class BOOSTClient:
         tracking_point_data = {
             "@context": self.default_context["@context"],
             "@type": "TrackingPoint",
-            "@id": f"https://github.com/carbondirect/BOOST/schemas/tracking-point/{tracking_point_id}",
+            "@id": f"https://github.com/BOOST-Working-Group/BOOST/schemas/tracking-point/{tracking_point_id}",
             "trackingPointId": tracking_point_id,
             "pointType": point_type,
             "geographicDataId": geographic_data_id,

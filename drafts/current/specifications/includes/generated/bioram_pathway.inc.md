@@ -247,7 +247,7 @@ The `BioramPathway` entity represents California Energy Commission (CEC) certifi
 <td>string (uri)
 <td>Yes
 <td>Unique URI identifier for JSON-LD
-<td>`https://github.com/carbondirect/BOOST/schemas/bioram-pathway/BIORAM-PWR-2025-LMR-001`
+<td>`https://github.com/BOOST-Working-Group/BOOST/schemas/bioram-pathway/BIORAM-PWR-2025-LMR-001`
 </tr>
 <tr>
 <td>`lastUpdated`

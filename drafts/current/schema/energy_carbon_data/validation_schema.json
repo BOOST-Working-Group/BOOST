@@ -1,7 +1,7 @@
 {
   "schema": {
     "$schema": "http://json-schema.org/draft-07/schema#",
-    "$id": "https://github.com/carbondirect/BOOST/schemas/energy-carbon-data",
+    "$id": "https://github.com/BOOST-Working-Group/BOOST/schemas/energy-carbon-data",
     "type": "object",
     "properties": {
       "@context": {

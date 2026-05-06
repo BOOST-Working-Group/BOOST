@@ -156,7 +156,7 @@ The `SpeciesComponent` entity enables detailed species-level tracking within mul
 <td>string (uri)
 <td>Yes
 <td>Unique URI identifier for JSON-LD
-<td>`https://github.com/carbondirect/BOOST/schemas/species-component/SC-001`
+<td>`https://github.com/BOOST-Working-Group/BOOST/schemas/species-component/SC-001`
 </tr>
 <tr>
 <td>`lastUpdated`

@@ -267,7 +267,7 @@ Create the schema file with the **required wrapper format** and include `boost_m
 {
   "schema": {
     "$schema": "http://json-schema.org/draft-07/schema#",
-    "$id": "https://github.com/carbondirect/BOOST/schemas/new-entity-name",
+    "$id": "https://github.com/BOOST-Working-Group/BOOST/schemas/new-entity-name",
     "title": "New Entity Name",
     "description": "Description of the new entity",
     "boost_metadata": {

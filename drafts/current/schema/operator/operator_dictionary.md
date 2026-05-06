@@ -107,7 +107,7 @@ The `Operator` entity represents personnel within the BOOST biomass chain of cus
 <td>string (uri)
 <td>Yes
 <td>Unique URI identifier for JSON-LD
-<td>`https://github.com/carbondirect/BOOST/schemas/operator/OP-ANDERSON-HARVEST-001`
+<td>`https://github.com/BOOST-Working-Group/BOOST/schemas/operator/OP-ANDERSON-HARVEST-001`
 </tr>
 <tr>
 <td>`lastUpdated`
