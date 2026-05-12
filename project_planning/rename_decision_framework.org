@@ -1,0 +1,161 @@
+#+TITLE: BOOST Rename — Decision Framework
+#+AUTHOR: Peter Tittmann
+#+DATE: <2026-05-12 Tue>
+#+STATUS: DRAFT — for discussion with Jason Grant (WWF-US)
+#+OPTIONS: toc:nil num:nil
+
+* Context
+
+The BOOST charter is being amended (issue #283) to extend scope from "solid
+biomass for energy applications" to include timber and forest fiber. Independent
+of the charter work, stakeholder feedback points to a possible name change.
+
+Two distinct resistance patterns are mixed in what we're hearing:
+
+- *Scope-level.* "I don't see myself in the current charter." Addressed by the
+  charter amendment itself — naming constituencies explicitly (woody biomass for
+  energy, sawn timber and engineered wood, forest fiber for pulp/paper/bio-based
+  manufacturing) in the scope statement.
+
+- *Brand-level.* "BOOST sounds like an energy thing, not a wood thing." Charter
+  language doesn't reach this — in conversation people still expand BOOST as
+  "Biomass…" regardless of what the document says.
+
+This memo lays out the rename decision space so it can be discussed and
+narrowed.
+
+* Decision criteria
+
+Any candidate should be evaluated against these:
+
+1. *Technical credibility.* Sounds like a spec, not a startup. State agency
+   staff (CARB, CEC, USFS) should not roll their eyes when typing it into a
+   document.
+2. *Three-constituency fit.* Works for (a) woody biomass for energy/electricity
+   feedstock, (b) forest fiber and wood-products traceability,
+   (c) chain-of-custody alignment under GTF umbrella positioning.
+3. *Conflict landscape.* No collision with adjacent traceability standards,
+   forestry ERPs, certification programs, or CoC-certified manufacturers in
+   the PEFC/FSC ecosystem.
+4. *Brand recognition cost.* What does the working group give up by walking
+   away from "BOOST" in policy circles where it's already known.
+5. *Operational cost.* Domain transitions, GitHub org migration, W3C CG rename
+   process, charter republication.
+
+* Candidates
+
+** Path A — Retain "BOOST", re-expand the acronym
+
+Brand stays. The "B" expands to something inclusive of all three
+constituencies.
+
+- *BOOST — Biogenic Open Origin Standard for Traceability.* "Biogenic" subsumes
+  biomass-for-energy, wood products, and forest fiber. Sounds appropriately
+  technical.
+- *BOOST — Bio-based Open Origin Standard for Traceability.* Similar effect,
+  slightly less scientific tone.
+- *BOOST — Bioeconomy Open Origin Standard for Traceability.* Broadest framing;
+  positions the standard as the data layer for the bio-economy.
+
+Cost: marginal (README + charter language). Risk: doesn't reach brand-level
+objectors who hear "BOOST" itself as energy-coded.
+
+** Path B — Descriptive name (WWF GTFBL pattern)
+
+Mirrors WWF's existing /Global Traceability Framework for X/ naming —
+explicit, descriptive, no acronym wordplay. Reads as a sibling spec to
+GTFBL (Beef & Leather) and GDST (Seafood).
+
+- *GTFT — Global Traceability Framework for Timber.* Strongest GTF alignment.
+  "Timber" reads as forest-products-and-fiber to industry, but may be heard as
+  excluding energy biomass.
+- *GTFW — Global Traceability Framework for Wood.* "Wood" is broader than
+  timber in everyday usage and more obviously covers fuel-grade material.
+- *GTFF — Global Traceability Framework for Forests.* Most inclusive; reads as
+  the umbrella for everything forest-derived (timber, fiber, biomass).
+- *Data Standard for Wood (DSW).* Plain descriptive, no GTF framing. Strips out
+  "Global" and "Traceability Framework" which add length without much signal.
+- *Forest Products Data Standard (FPDS).* Industry-vocabulary-aligned;
+  "forest products" is a recognized commodity category.
+- *Open Forest Data Standard (OFDS).* Foregrounds "open" — important if the
+  open-source / open-data positioning is a discriminator vs. proprietary
+  competitor systems.
+
+Cost: full rename. Risk: cedes the BOOST brand entirely; gains GTF-sibling
+recognition with WWF audiences but may feel generic to current adopters.
+
+** Path C — Pronounceable acronym (new brand, technical sober)
+
+Replaces BOOST with a new short acronym that's still pronounceable and reads
+as a spec name.
+
+- *FORTE — Forest Open Records for Traceability & Exchange.* Cleanest
+  pronunciation and letter-to-word mapping of what we explored. Conflicts:
+  Forté NZ (PEFC CoC-certified timber flooring company) is the live risk —
+  same stakeholder community. Innsbruck "FORTE" forest sensor project (2025)
+  is a peripheral conflict. Domains and GitHub orgs available.
+- *TRACS — Traceability Records & Attribution for Commodity Standards.*
+  Pronounced "tracks." Conflicts: TRACT (gettract.com, major forestry ERP
+  backed by IKEA/BTG Pactual) and TRACES (EU cross-border control system)
+  both sit one phoneme away in the same workflow space — confusion guaranteed
+  at forestry conferences.
+
+Other pronounceable candidates considered and dropped: BEAM (Apache Beam
+collision in the data space), TIMBR/FOSTR (vowel-drop branding reads as
+try-hard), JOIST/STAVE (locks to wood-as-construction-material, abandons
+energy-feedstock constituency), KEEL (Keel.so backend tool collision).
+
+* Conflict landscape (summary)
+
+| Candidate | Hardest conflict                                   | Severity |
+|-----------+----------------------------------------------------+----------|
+| BOOST     | None new (status quo)                              | n/a      |
+| GTFT/W/F  | None known; some risk of confusion with GTFBL/GDST | Low      |
+| FORTE     | Forté NZ (PEFC CoC timber flooring company)        | High     |
+| TRACS     | TRACT (forestry ERP) + TRACES (EU traceability)    | High     |
+| DSW/FPDS  | None known                                         | Low      |
+
+* Recommendation (working hypothesis — open to revision)
+
+Run the *hybrid* path first:
+
+1. Charter amendment with explicit scope statement naming all three
+   constituencies (in flight as #283).
+2. Re-expand BOOST → *Biogenic Open Origin Standard for Traceability* in
+   README and charter front matter.
+3. Active repositioning: an "About BOOST" framing on the spec page, a
+   one-pager for forest-products stakeholders, visible signals (FSC/PEFC CoC
+   alignment crosswalk, forest-products org joining the W3C CG).
+4. Sound out 3–4 forest-products stakeholders with the re-expanded framing.
+   If it lands: rename not needed. If it doesn't: their specific objections
+   inform a better rename choice than we can make in the abstract.
+
+If a rename is unavoidable, leading options would be:
+
+- /GTFT/ (or /GTFW/) — if the priority is GTF-sibling recognition with WWF
+- /FORTE/ — if the priority is a distinctive standalone brand
+- /Forest Products Data Standard/ — if the priority is plain descriptiveness
+
+* Questions for Jason
+
+1. WWF's read on whether BOOST renamed should explicitly take the
+   /Global Traceability Framework for X/ form to sit as a clear sibling
+   to GTFBL/GDST, or whether GTFT/GTFW is a WWF-owned umbrella name and
+   BOOST should occupy a different layer.
+2. What's the WWF preference between /Timber/, /Wood/, and /Forests/ as
+   the X-token if we do go GTF-X — and is there a working WWF document
+   that already uses one of these consistently.
+3. Whether there's existing GTF stakeholder mapping that would surface
+   conflicts with FORTE or other candidates before we commit.
+4. Whether the felt-inclusion problem we're trying to solve is primarily
+   a US-side concern (state agencies, US forest products) or a global
+   one — affects how much weight to give GTF-alignment vs. retaining
+   BOOST policy recognition.
+
+* Notes
+
+- Domain availability checked for forte-standard.org, forte-wg.org,
+  tracs-standard.org, tracs-wg.org — all available as of 2026-05-12.
+- GitHub orgs checked: forte-working-group, forte-standard, forte-wg,
+  tracs-standard, tracs-wg — all available.
+- This memo is a draft for working-group discussion. No decision implied.
