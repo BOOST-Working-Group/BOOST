@@ -11,8 +11,9 @@ __pycache__/
 # Jupyter notebook checkpoints
 .ipynb_checkpoints/
 
-# Claude Code local directories
+# Claude Code and MCP local directories
 .claude/
+.mcp/
 
 # LaTeX intermediate files
 *.aux
