@@ -136,21 +136,6 @@ If a rename is unavoidable, leading options would be:
 - /FORTE/ — if the priority is a distinctive standalone brand
 - /Forest Products Data Standard/ — if the priority is plain descriptiveness
 
-* Questions for Jason
-
-1. WWF's read on whether BOOST renamed should explicitly take the
-   /Global Traceability Framework for X/ form to sit as a clear sibling
-   to GTFBL/GDST, or whether GTFT/GTFW is a WWF-owned umbrella name and
-   BOOST should occupy a different layer.
-2. What's the WWF preference between /Timber/, /Wood/, and /Forests/ as
-   the X-token if we do go GTF-X — and is there a working WWF document
-   that already uses one of these consistently.
-3. Whether there's existing GTF stakeholder mapping that would surface
-   conflicts with FORTE or other candidates before we commit.
-4. Whether the felt-inclusion problem we're trying to solve is primarily
-   a US-side concern (state agencies, US forest products) or a global
-   one — affects how much weight to give GTF-alignment vs. retaining
-   BOOST policy recognition.
 
 * Notes
 
