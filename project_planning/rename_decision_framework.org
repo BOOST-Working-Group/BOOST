@@ -1,6 +1,6 @@
 #+TITLE: BOOST Rename — Decision Framework
 #+AUTHOR: Peter Tittmann
-#+DATE: <2026-05-12 Tue>
+#+DATE: <2026-05-15 Fri>
 #+STATUS: DRAFT — for discussion with Jason Grant (WWF-US)
 #+OPTIONS: toc:nil num:nil
 
@@ -60,29 +60,56 @@ constituencies.
 Cost: marginal (README + charter language). Risk: doesn't reach brand-level
 objectors who hear "BOOST" itself as energy-coded.
 
-** Path B — Descriptive name (WWF GTFBL pattern)
+** Path B — Descriptive name
+
+Replaces "BOOST" with a name that names the artifact directly. Two
+sub-patterns are worth distinguishing because they signal different
+governance postures.
+
+*** Path B1 — GTF-X pattern (WWF sibling positioning)
 
 Mirrors WWF's existing /Global Traceability Framework for X/ naming —
 explicit, descriptive, no acronym wordplay. Reads as a sibling spec to
-GTFBL (Beef & Leather) and GDST (Seafood).
+GTFBL (Beef & Leather) and GDST (Seafood) under the GTF umbrella.
 
-- *GTFT — Global Traceability Framework for Timber.* Strongest GTF alignment.
-  "Timber" reads as forest-products-and-fiber to industry, but may be heard as
-  excluding energy biomass.
-- *GTFW — Global Traceability Framework for Wood.* "Wood" is broader than
-  timber in everyday usage and more obviously covers fuel-grade material.
-- *GTFF — Global Traceability Framework for Forests.* Most inclusive; reads as
-  the umbrella for everything forest-derived (timber, fiber, biomass).
-- *Data Standard for Wood (DSW).* Plain descriptive, no GTF framing. Strips out
-  "Global" and "Traceability Framework" which add length without much signal.
+- *GTFT — Global Traceability Framework for Timber.* Strongest GTF
+  alignment. "Timber" reads as forest-products-and-fiber to industry,
+  but may be heard as excluding energy biomass.
+- *GTFW — Global Traceability Framework for Wood.* "Wood" is broader
+  than timber in everyday usage and more obviously covers fuel-grade
+  material.
+- *GTFF — Global Traceability Framework for Forests.* Most inclusive;
+  reads as the umbrella for everything forest-derived (timber, fiber,
+  biomass).
+
+Cost: full rename. Risk: positions BOOST as a sub-component of the
+WWF/GTF brand. Inseparable from the sponsor framework's identity —
+which conflates the open standard with a single-sponsor brand in the
+exact way W3C CG open-standard governance is built to avoid.
+
+*** Path B2 — Plain descriptive, framework-agnostic
+
+Names what the artifact is in industry-vocabulary terms without
+attaching to any sponsor framework. Strips out "Global" and
+"Traceability Framework" — length without much signal — in favor of
+literal precision.
+
+- *Data Standard for Wood (DSW).* Plain descriptive, no acronym
+  wordplay. Reads thin — sounds like a working title rather than a
+  standard name.
 - *Forest Products Data Standard (FPDS).* Industry-vocabulary-aligned;
-  "forest products" is a recognized commodity category.
-- *Open Forest Data Standard (OFDS).* Foregrounds "open" — important if the
-  open-source / open-data positioning is a discriminator vs. proprietary
-  competitor systems.
+  "forest products" is a recognized commodity category. Doesn't signal
+  openness.
+- *Open Forest Data Standard (OFDS).* Foregrounds "Open" — the
+  open-standard governance posture is visible in the name itself.
+  "Forest" is the most inclusive scope token (covers timber, fiber,
+  and forest-derived biomass).
 
-Cost: full rename. Risk: cedes the BOOST brand entirely; gains GTF-sibling
-recognition with WWF audiences but may feel generic to current adopters.
+Cost: full rename. Risk: less brand-recognition gain from a sponsor
+framework's pre-existing audience; trades brand association for
+governance independence. The right risk profile if open-standard
+integrity is a discriminator vs. proprietary vendor platforms (FSC
+Trace, TRACT, Chainparency, LiveEO TradeAware, et al.).
 
 ** Path C — Pronounceable acronym (new brand, technical sober)
 
@@ -107,34 +134,64 @@ energy-feedstock constituency), KEEL (Keel.so backend tool collision).
 
 * Conflict landscape (summary)
 
-| Candidate | Hardest conflict                                   | Severity |
-|-----------+----------------------------------------------------+----------|
-| BOOST     | None new (status quo)                              | n/a      |
-| GTFT/W/F  | None known; some risk of confusion with GTFBL/GDST | Low      |
-| FORTE     | Forté NZ (PEFC CoC timber flooring company)        | High     |
-| TRACS     | TRACT (forestry ERP) + TRACES (EU traceability)    | High     |
-| DSW/FPDS  | None known                                         | Low      |
+| Candidate     | Hardest conflict                                   | Severity |
+|---------------+----------------------------------------------------+----------|
+| BOOST         | None new (status quo)                              | n/a      |
+| B1: GTFT/W/F  | None known; some risk of confusion with GTFBL/GDST | Low      |
+| B2: OFDS      | None known                                         | Low      |
+| B2: FPDS/DSW  | None known                                         | Low      |
+| FORTE         | Forté NZ (PEFC CoC timber flooring company)        | High     |
+| TRACS         | TRACT (forestry ERP) + TRACES (EU traceability)    | High     |
 
-* Recommendation (working hypothesis — open to revision)
+* Recommendation (working hypothesis — open to revision through WG discussion)
 
-Run the *hybrid* path first:
+Rename direct to *Path B2*, with *OFDS — Open Forest Data Standard* as
+the leading candidate. Charter amendment (#283) remains the
+prerequisite step and lands first.
 
-1. Charter amendment with explicit scope statement naming all three
-   constituencies (in flight as #283).
-2. Re-expand BOOST → *Biogenic Open Origin Standard for Traceability* in
-   README and charter front matter.
-3. Active repositioning: an "About BOOST" framing on the spec page, a
-   one-pager for forest-products stakeholders, visible signals (FSC/PEFC CoC
-   alignment crosswalk, forest-products org joining the W3C CG).
-4. Sound out 3–4 forest-products stakeholders with the re-expanded framing.
-   If it lands: rename not needed. If it doesn't: their specific objections
-   inform a better rename choice than we can make in the abstract.
+Reasoning against the other paths:
 
-If a rename is unavoidable, leading options would be:
+- /Path A/ doesn't reach the brand-level objection. People still hear
+  "Biomass" in conversation no matter what we put in the charter front
+  matter; the mental anchor doesn't yield to charter-language. Active
+  repositioning (one-pager, crosswalks, visible signals) is fighting
+  headwinds, and the hybrid "rename only if signals don't move" path
+  defers the decision into a window where M1 GTFT deliverables, charter
+  amendment ratification, and EUDR phase-in pressure all need to
+  reference the standard by a stable name.
+- /Path B1/ (GTF-X pattern) makes BOOST inseparable from the WWF/GTFT
+  framework brand, which conflates an open standard with a
+  single-sponsor framework — the exact structural posture W3C CG
+  open-standard governance is built to avoid. WWF has been explicit
+  that it does not intend to own the GTF meta-initiative, but naming
+  the standard under the WWF-led umbrella's brand pattern signals
+  capture regardless of intent.
+- /Path C/ has hard name collisions in the same stakeholder community
+  (Forté NZ is a PEFC CoC-certified timber-flooring company; TRACS
+  sits one phoneme from TRACT and TRACES) that we cannot recover from
+  once the name is published.
 
-- /GTFT/ (or /GTFW/) — if the priority is GTF-sibling recognition with WWF
-- /FORTE/ — if the priority is a distinctive standalone brand
-- /Forest Products Data Standard/ — if the priority is plain descriptiveness
+Reasoning for B2/OFDS over B2/FPDS or B2/DSW:
+
+- /OFDS/ leads with "Open" — the open-standard governance property is
+  visible in the name itself. Important discriminator vs. proprietary
+  vendor platforms operating in the same EUDR-compliance space (FSC
+  Trace, TRACT, Chainparency, LiveEO TradeAware, osapiens, et al.).
+- /OFDS/ takes "Forest" as the scope token, the most inclusive of the
+  three (timber, fiber, forest-derived biomass) — preserves the
+  three-constituency fit from Decision Criterion 2.
+- /FPDS/ (Forest Products Data Standard) is the alternative if WG
+  feedback finds "Open" over-engineered or redundant for this audience
+  and a plain industry-vocabulary name lands better.
+- /DSW/ (Data Standard for Wood) reads thin — drop.
+
+The B2-direct recommendation depends on a structural question
+currently open with WWF: whether WWF reads GTFT as the umbrella name
+with BOOST occupying a different layer underneath (the reading this
+recommendation assumes) or whether WWF wants BOOST-renamed to sit
+explicitly as a sibling to GTFBL/GDST. If the latter, the
+recommendation re-opens toward Path B1. WWF-side coordination on that
+question is in flight separately from this memo.
 
 
 * Notes
