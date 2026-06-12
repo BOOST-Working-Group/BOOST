@@ -1,0 +1,146 @@
+#+TITLE: BOOST Membership — Targeted Seat Strategy
+#+AUTHOR: Peter Tittmann
+#+DATE: <2026-06-12 Fri>
+#+STATUS: DRAFT — chair's working document
+#+OPTIONS: toc:nil num:nil
+
+* Purpose
+
+Replace broadcast membership outreach with a named-seat strategy: identify the
+specific people whose absence blocks the next two quarters of work, and recruit
+each one to a concrete task through a warm path. Broadcast materials (blog
+post, LinkedIn, CG announcement — June 2026 campaign in
+=drafts/current/communications/outreach_materials/=) run as ambient air cover;
+conversion happens through individual invitations.
+
+Source analysis: the GTFT Milestone 1 landscape review and outreach matrices
+(Arbos–WWF engagement), filtered for the CG-membership question — /would this
+person actually touch the schema?/ The GTFT coordination list and the BOOST
+membership list overlap but are not the same list; organizations engaged at the
+framework level (e.g., EU TRACES NT) get crosswalks, not membership invitations.
+
+* Current room — quadrant audit (19 participants, June 2026)
+
+| Quadrant | Who | Assessment |
+|----------+-----+------------|
+| Regulators | CARB ×3 (Fenton, Loeb, Meialua) | Strong, but single-agency. Other interagency partners (CPUC, CAL FIRE, DOC, CalRecycle) attend meetings without holding CG seats. |
+| Producers / operators | Green Diamond (Durrett), Tule River EDC (Felix), Watershed Center ×2 (Stevenson, Twer) | Present but thin on the operational layer — no mill/facility-side participant, no one who runs intake or scaling systems. |
+| Implementers (software) | Veriflux (Charles), Loamist (Miller), Life Cycle Associates (Matuschek) | Good California coverage; zero standards-stack representation (EPCIS, UNTP) and zero EUDR-tooling vendors. |
+| Certifiers | Preferred by Nature (Stäuble) | One seat. No FSC, PEFC, SBP, or RSB participation. |
+| Academic / advisory | Carbon Direct ×3 (Cabiyo, Kilroy, Sanchez), Cascade Resource (Oldson), Allotrope (Hambrect) | Well covered on carbon/LCA; no forest biometrics or inventory representation. |
+
+Summary: the room is California-policy-shaped. The work now in motion
+(harvest-validation extension points, EPCIS/UNTP serialization decisions, GTFT
+alignment, EUDR crosswalks) needs seats the room doesn't have.
+
+* Prerequisite — charter amendment lands first
+
+Nearly every target below is timber- or EUDR-scoped. Invitations sent before
+the scope amendment (#283) is ratified will be read against a charter that says
+"solid biomass for energy" — the invitee correctly concludes they're in the
+wrong room. Sequence: ratify #283, then send the timber-side invitations.
+
+* Protocol — one hat at a time
+
+Most targets below will first be met through GTFT Milestone 2 outreach calls
+conducted under the Arbos–WWF engagement. Discipline:
+
+1. The M2 call is where the right person is /identified/. No CG recruitment on
+   that call.
+2. The CG invitation travels separately — from the BOOST chair, framed by a
+   specific BOOST work item, on BOOST channels.
+3. Never "WWF suggested I ask." The CG's multi-stakeholder independence is the
+   asset; an open standard must not read as a single sponsor's framework
+   wearing a W3C badge.
+
+* Invitation template
+
+Every invitation names three things: (a) the person, (b) the gap only they
+fill, (c) a first contribution under two hours. Pattern:
+
+#+begin_quote
+We designed [entity/decision] without anyone who [their practice]. I'd like
+ninety minutes of your skepticism on [specific artifact/issue]. Joining the
+group is free and takes a few minutes: https://www.w3.org/community/boost-01/
+#+end_quote
+
+* Named seats
+
+** Wave 0 — activation (this week; no prerequisites)
+
+| Seat | Person / org | First task | Path |
+|------+--------------+------------+------|
+| Harvest-validation workstream owner | Tobias Stäuble (Preferred by Nature) — /already a member/ | Own the harvest-claim validation extension-points workstream he surfaced on the GTF reviewer thread (May 2026); PbN volunteered for plausibility-check work | Direct note from chair: the gap he identified is now a workstream; offer ownership and credit |
+| Forest biometrics | Named biometrician from Pete's network (FIA/FVS community) | Review predicted-yield plausibility envelope design for the validation layer | Direct |
+
+** Wave 1 — after charter amendment ratifies
+
+| Seat | Person / org | First task | Path |
+|------+--------------+------------+------|
+| EPCIS serialization | GS1 / OpenEPCIS technical contact | The EPCIS 2.0 serialization decision (TrackingPoint→ObjectEvent, MaterialProcessing→TransformationEvent) — mandate, recommend, or support | GS1 Brussels; EUDR Application Profiles team |
+| UNTP profile | UN/CEFACT-adjacent technical participant | BOOST→UNTP DCC/DPP serialization profile review | Roster request to UNECE ToS secretariat (M. T. Pisani) — already an M2 action |
+| Open-source DPI | Forest Data Partnership / AgStack engineer | BOOST as native data model for FDP field-mapping tooling | WRI; AgStack (Linux Foundation) collaboration announced 2026 |
+| Certification scheme | PEFC International technical staff | Crosswalk: PEFC EUDR DDS module ↔ BOOST entities | Direct; decentralized model is a natural fit for an open interchange standard |
+| Verification methods | World Forest ID | Sample-based evidence references (isotope/DNA) on harvest events | Via WRI / Kew partnership network |
+
+** Wave 2 — once Wave 1 seats are working (balance check first)
+
+| Seat | Person / org | First task | Path |
+|------+--------------+------------+------|
+| Reference implementation ×2–3 | EUDR tooling vendors with public schemas or open-API posture (candidates: Sourcemap, Koltiva, Osapiens) | Implement against the conformance suite; demo at a WG meeting | Selective M2 contact; demo + reference implementation offer |
+| Federation conversation | FSC Trace technical lead | Scope BOOST as the interchange format by which non-FSC chains federate with FSC Trace data (Motion 30 context) | Via the Motion 30 coalition relationships |
+
+Sequencing rationale: vendors and large-platform participants join after the
+practitioner/certifier base is seated, so no single commercial perspective
+shapes the architecture by default. They will come on their own once adoption
+is visible; the deliberate recruiting effort goes to the smaller voices.
+
+** Operator seats — from the California contracts, not the landscape
+
+The GTFT landscape is institution-heavy by construction; nobody on it runs a
+scale house. Fill the operator gap from the interagency work:
+
+| Seat | Source | First task |
+|------+--------+------------|
+| BioRAM-contracted facility (fuels/intake manager) | CPUC/CAL FIRE program contacts | Bring one real intake dataset to validation-tool testing |
+| LCFS pathway holder | CARB members (Fenton/Loeb) for referral | Walk one pathway application's data through the BOOST sufficiency check |
+| Mill-side ops (scaling/inventory) | Green Diamond seat (Durrett) for internal referral; Loamist pilot contacts | Review MoistureContent / MeasurementRecord entities against scale-house practice |
+
+** Agency depth — convert attendance to seats
+
+CPUC, CAL FIRE, DOC, and CalRecycle participate in the interagency working
+group but hold no CG seats. Ask each agency to delegate one named technical
+staffer as a CG participant. The ask is explicit and small: one person, GitHub
+account, comment on the issues that touch their program.
+
+* Routing through existing members
+
+Nineteen members ≈ nineteen address books. Instead of "forward this to anyone"
+(the broadcast version), bring this seat list to individual members and ask:
+"which of these do you know well enough to introduce?" Obvious matches:
+
+- CARB members → LCFS pathway holders, other-agency delegates
+- Durrett (Green Diamond) → mill-side operations contacts
+- Stäuble (PbN) → certification-scheme and EUDR-practice contacts
+- Miller (Loamist) → facility pilots
+- Carbon Direct members → biometrics/academic referrals
+
+* Success metric
+
+Count contributions, not subscriptions. Target for the September 2026 WG
+meeting: /three new seats filled and working/ (a first contribution delivered —
+issue comment, dataset reviewed, crosswalk drafted), plus the Wave 0
+activations. Mailing-list growth is not the metric.
+
+* Tracking
+
+Work the table above as a checklist. Per-invitation status (contacted /
+invited / joined / first contribution) can be tracked as issues in the private
+BOOST Program project; this memo stays the strategy of record.
+
+* Relationship to the June 2026 broadcast campaign
+
+The blog post, LinkedIn post, and CG announcement proceed as drafted — they
+make the room findable when a named invitation lands and the person goes
+looking. The member-email version shifts from "forward this paragraph to
+anyone" to the routed-introduction ask above.
