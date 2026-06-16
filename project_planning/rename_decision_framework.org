@@ -1,7 +1,7 @@
 #+TITLE: BOOST Rename — Decision Framework
 #+AUTHOR: Peter Tittmann
 #+DATE: <2026-05-15 Fri>
-#+STATUS: DRAFT — for discussion with Jason Grant (WWF-US)
+#+STATUS: For BOOST WG discussion — issue #299 (runs parallel to charter scope amendment #283)
 #+OPTIONS: toc:nil num:nil
 
 * Context
