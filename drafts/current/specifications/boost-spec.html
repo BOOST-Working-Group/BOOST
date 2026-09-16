@@ -1,7 +1,7 @@
 <!doctype html><html lang="en">
  <head>
   <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-  <title>Biomass Open Origin Standard for Tracking (BOOST) Data Standard</title>
+  <title>Biomass Open Origin Specification for Tracking (BOOST)</title>
   <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
 <style data-fill-with="stylesheet">/******************************************************************************
  *                   Style sheet for the W3C specifications                   *
@@ -4408,7 +4408,7 @@ select:focus {
   </nav><div class="main-content-wrapper">
   <div class="head">
    <p data-fill-with="logo"></p>
-   <h1 class="p-name no-ref" id="title">Biomass Open Origin Standard for Tracking (BOOST) Data Standard</h1>
+   <h1 class="p-name no-ref" id="title">Biomass Open Origin Specification for Tracking (BOOST)</h1>
    <h2 class="no-num no-toc no-ref heading settled" id="profile-and-date"><span class="content">Living Document,
     <time class="dt-updated" datetime="2025-08-11">11 August 2025</time></span></h2>
    <div data-fill-with="spec-metadata">
@@ -4431,12 +4431,12 @@ Copyright © 2025 BOOST W3C Community Group. This work is licensed under the <a 
   </div>
   <div class="p-summary" data-fill-with="abstract">
    <h2 class="no-num no-toc no-ref heading settled" id="abstract"><span class="content">Abstract</span></h2>
-   <p>The Biomass Open Origin Standard for Tracking (BOOST) data standard defines a comprehensive, interoperable framework for tracking biomass materials through complex supply chains. BOOST enables transparent, verifiable, and consistent data exchange to support sustainability verification, regulatory compliance, and supply chain integrity across the biomass economy. The standard implements a TraceableUnit (TRU)-centric model supporting continuous traceability, multi-species composition management, and comprehensive plant part categorization across 33 interconnected entities organized into 7 thematic areas.</p>
+   <p>The Biomass Open Origin Specification for Tracking (BOOST) defines a comprehensive, interoperable framework for tracking biomass materials through complex supply chains. BOOST enables transparent, verifiable, and consistent data exchange to support sustainability verification, regulatory compliance, and supply chain integrity across the biomass economy. The specification implements a TraceableUnit (TRU)-centric model supporting continuous traceability, multi-species composition management, and comprehensive plant part categorization across 33 interconnected entities organized into 7 thematic areas.</p>
   </div>
   <div data-fill-with="at-risk"></div>
   <main>
    <h2 class="no-num no-toc heading settled" id="sotd"><span class="content">Status of This Document</span></h2>
-   <p>This specification was published by the <a href="https://www.w3.org/community/boost-01/">Biomass Open Origin Standard for Tracking (BOOST) W3C Community Group</a>. It is not a W3C Standard nor is it on the W3C Standards Track. Please note that under the <a href="https://www.w3.org/community/about/process/final/">W3C Community Final Specification Agreement (FSA)</a> other conditions apply. Learn more about <a href="https://www.w3.org/community/">W3C Community and Business Groups</a>.</p>
+   <p>This specification was published by the <a href="https://www.w3.org/community/boost-01/">Biomass Open Origin Specification for Tracking (BOOST) W3C Community Group</a>. It is not a W3C Standard nor is it on the W3C Standards Track. Please note that under the <a href="https://www.w3.org/community/about/process/final/">W3C Community Final Specification Agreement (FSA)</a> other conditions apply. Learn more about <a href="https://www.w3.org/community/">W3C Community and Business Groups</a>.</p>
    <p>This document is governed by the <a href="https://www.w3.org/community/about/process/cla/">W3C Community License Agreement (CLA)</a>. A human-readable <a href="https://www.w3.org/community/about/process/cla-deed/">summary</a> is available.</p>
    <p>Publication as a Community Group Report does not imply endorsement by the W3C Membership. This is a draft document and may be updated, replaced or obsoleted by other documents at any time. It is inappropriate to cite this document as other than work in progress.</p>
    <h2 class="no-num no-toc heading settled" id="feedback"><span class="content">How to Give Feedback</span></h2>
@@ -4453,12 +4453,12 @@ Copyright © 2025 BOOST W3C Community Group. This work is licensed under the <a 
    </ol>
    <h2 class="heading settled" data-level="1" id="executive-summary"><span class="secno">1. </span><span class="content">Executive Summary</span><a class="self-link" href="#executive-summary"></a></h2>
    <h3 class="heading settled" data-level="1.1" id="boost-purpose"><span class="secno">1.1. </span><span class="content">What BOOST Accomplishes</span><a class="self-link" href="#boost-purpose"></a></h3>
-   <p>The Biomass Open Origin Standard for Tracking (BOOST) solves the fundamental challenge of maintaining continuous, verifiable traceability through biomass supply chains—from standing trees to processed biofuels—without losing data integrity at critical transfer points where materials change hands, locations, or physical states.</p>
+   <p>The Biomass Open Origin Specification for Tracking (BOOST) solves the fundamental challenge of maintaining continuous, verifiable traceability through biomass supply chains—from standing trees to processed biofuels—without losing data integrity at critical transfer points where materials change hands, locations, or physical states.</p>
    <p><strong>Core Problem Addressed</strong>: Traditional biomass tracking systems break down during material transfers, processing operations, and aggregation points, creating traceability gaps where data continuity is lost or becomes unreliable. This forces businesses to maintain separate, incompatible tracking systems for different regulatory requirements while increasing documentation burden and compliance costs.</p>
-   <p><strong>BOOST’s Solution</strong>: A unified data standard built around <strong>TraceableUnits (TRUs)</strong> that maintain their identity throughout the supply chain using progressive identification methods, technology-appropriate data capture, and comprehensive field structures that simultaneously satisfy multiple regulatory frameworks.</p>
+   <p><strong>BOOST’s Solution</strong>: A unified data specification built around <strong>TraceableUnits (TRUs)</strong> that maintain their identity throughout the supply chain using progressive identification methods, technology-appropriate data capture, and comprehensive field structures that simultaneously satisfy multiple regulatory frameworks.</p>
    <h3 class="heading settled" data-level="1.2" id="design-principles"><span class="secno">1.2. </span><span class="content">Overarching Design Principles</span><a class="self-link" href="#design-principles"></a></h3>
    <h4 class="heading settled" data-level="1.2.1" id="traceableunits-trus-as-foundation"><span class="secno">1.2.1. </span><span class="content"><strong>TraceableUnits (TRUs) as Foundation</strong></span><a class="self-link" href="#traceableunits-trus-as-foundation"></a></h4>
-   <p>The TraceableUnits (TRUs) entity is the central organizing concept of the entire BOOST standard. Every other entity in the 33-entity data model either creates, modifies, measures, or references TraceableUnits (TRUs)s. This TRU-centric approach reflects the physical reality of biomass operations:</p>
+   <p>The TraceableUnits (TRUs) entity is the central organizing concept of the entire BOOST specification. Every other entity in the 33-entity data model either creates, modifies, measures, or references TraceableUnits (TRUs)s. This TRU-centric approach reflects the physical reality of biomass operations:</p>
    <ul>
     <li data-md>
      <p><strong>Harvest Level</strong>: Individual logs, piles, or volume aggregations become initial TRUs with appropriate identification methods</p>
@@ -4578,10 +4578,10 @@ Copyright © 2025 BOOST W3C Community Group. This work is licensed under the <a 
    </ul>
    <p>This strategic field selection ensures that BOOST implementations serve real-world business purposes by reducing compliance documentation burden while maintaining the data integrity required for sustainability verification and regulatory reporting across multiple jurisdictions.</p>
    <h2 class="heading settled" data-level="2" id="introduction"><span class="secno">2. </span><span class="content">Introduction</span><a class="self-link" href="#introduction"></a></h2>
-   <p>The Biomass Open Origin Standard for Tracking (BOOST) data standard defines a comprehensive, interoperable framework for tracking biomass materials through complex supply chains. BOOST enables transparent, verifiable, and consistent data exchange to support sustainability verification, regulatory compliance, and supply chain integrity across the biomass economy.</p>
+   <p>The Biomass Open Origin Specification for Tracking (BOOST) defines a comprehensive, interoperable framework for tracking biomass materials through complex supply chains. BOOST enables transparent, verifiable, and consistent data exchange to support sustainability verification, regulatory compliance, and supply chain integrity across the biomass economy.</p>
    <p>This specification provides implementers with the technical details needed to deploy BOOST-compliant tracking systems, including entity schemas, validation rules, and integration patterns with existing certification and regulatory frameworks.</p>
    <h3 class="heading settled" data-level="2.1" id="community-process"><span class="secno">2.1. </span><span class="content">Community Development Process</span><a class="self-link" href="#community-process"></a></h3>
-   <p>BOOST is developed through the <a href="https://www.w3.org/community/boost-01/">BOOST W3C Community Group</a> with collaborative input from industry stakeholders, regulatory agencies, and technical experts. The standard implements a TraceableUnit (TRU)-centric model supporting continuous tracking with progressive identification methods, multi-species composition management, and comprehensive plant part categorization across 36 interconnected entities.</p>
+   <p>BOOST is developed through the <a href="https://www.w3.org/community/boost-01/">BOOST W3C Community Group</a> with collaborative input from industry stakeholders, regulatory agencies, and technical experts. The specification implements a TraceableUnit (TRU)-centric model supporting continuous tracking with progressive identification methods, multi-species composition management, and comprehensive plant part categorization across 36 interconnected entities.</p>
    <p><strong>Working Group Members:</strong></p>
    <p><strong>Chair:</strong> Peter Tittmann (Carbon Direct)</p>
    <p><strong>Community Group Participants:</strong></p>
@@ -4797,7 +4797,7 @@ Operations should establish tracking points where physical custody transfers occ
    <p><strong>Seasonal Access Roads</strong>: Forest operations with seasonal road restrictions use <code>configurationRole: "seasonal"</code> tracking points, with alternative routes activated based on weather and access conditions.</p>
    <p><strong>Multi-Species Aggregation</strong>: Mixed-species piles require volume percentage tracking through the <code>SpeciesComponent</code> entity, maintaining species-specific sustainability claims and carbon storage calculations even within aggregated units.</p>
    <h3 class="heading settled" data-level="2.9" id="purpose-scope"><span class="secno">2.9. </span><span class="content">Purpose and Scope</span><a class="self-link" href="#purpose-scope"></a></h3>
-   <p>This specification defines the BOOST (Biomass Open Origin Standard for Tracking) data standard for biomass supply chain tracking and verification. The standard provides:</p>
+   <p>This specification defines the BOOST (Biomass Open Origin Specification for Tracking) data model for biomass supply chain tracking and verification. The specification provides:</p>
    <ul>
     <li data-md>
      <p>A unified data model for biomass custody transfers</p>
@@ -4809,8 +4809,8 @@ Operations should establish tracking points where physical custody transfers occ
      <p>Regulatory compliance frameworks for multiple jurisdictions</p>
    </ul>
    <h3 class="heading settled" data-level="2.10" id="background-motivation"><span class="secno">2.10. </span><span class="content">Background and Motivation</span><a class="self-link" href="#background-motivation"></a></h3>
-   <p>The development of comprehensive biomass traceability systems addresses critical needs for sustainability verification, regulatory compliance, and supply chain transparency in the growing biomass economy. This standard enables interoperability between reporting systems, registries, and certification bodies.</p>
-   <p>The initial version of this data standard is funded through a grant from the California Department of Conservation, with an initial focus on California as the jurisdictional context while maintaining broad applicability to generalized biomass chain of custody requirements.</p>
+   <p>The development of comprehensive biomass traceability systems addresses critical needs for sustainability verification, regulatory compliance, and supply chain transparency in the growing biomass economy. This specification enables interoperability between reporting systems, registries, and certification bodies.</p>
+   <p>The initial version of this data specification is funded through a grant from the California Department of Conservation, with an initial focus on California as the jurisdictional context while maintaining broad applicability to generalized biomass chain of custody requirements.</p>
    <h3 class="heading settled" data-level="2.11" id="existing-standards"><span class="secno">2.11. </span><span class="content">Relationship to Existing Standards</span><a class="self-link" href="#existing-standards"></a></h3>
    <p>BOOST builds upon and integrates with established standards including:</p>
    <ul>
@@ -4831,7 +4831,7 @@ Operations should establish tracking points where physical custody transfers occ
    <p>This specification was developed through the W3C Community Group process with balanced stakeholder participation including civil society organizations, government agencies, small and large businesses, and independent technical experts. Recruitment and engagement efforts were made to avoid overrepresentation of any single stakeholder group.</p>
    <p>The group operates under the Community and Business Group Process, seeking organizational licensing commitments under the W3C Community Contributor License Agreement (CLA) for all substantive contributions.</p>
    <h2 class="heading settled" data-level="3" id="use-cases"><span class="secno">3. </span><span class="content">Use Cases and Requirements</span><a class="self-link" href="#use-cases"></a></h2>
-   <p>BOOST addresses critical use cases across the biomass supply chain, from forest management and harvesting through processing, transportation, and final delivery. The standard supports both regulatory compliance and voluntary certification scenarios.</p>
+   <p>BOOST addresses critical use cases across the biomass supply chain, from forest management and harvesting through processing, transportation, and final delivery. The specification supports both regulatory compliance and voluntary certification scenarios.</p>
    <h3 class="heading settled" data-level="3.1" id="core-use-case-categories"><span class="secno">3.1. </span><span class="content">Core Use Case Categories</span><a class="self-link" href="#core-use-case-categories"></a></h3>
    <h4 class="heading settled" data-level="3.1.1" id="1-complete-harvest-to-mill-traceability-chain"><span class="secno">3.1.1. </span><span class="content">1. Complete Harvest-to-Mill Traceability Chain</span><a class="self-link" href="#1-complete-harvest-to-mill-traceability-chain"></a></h4>
    <p><strong>Objective</strong>: Verify end-to-end traceability from standing tree to mill processing</p>
@@ -5056,7 +5056,7 @@ Operations should establish tracking points where physical custody transfers occ
    </ul>
    <h2 class="heading settled" data-level="5" id="implementation-standards"><span class="secno">5. </span><span class="content">Implementation Standards and Tolerances</span><a class="self-link" href="#implementation-standards"></a></h2>
    <h3 class="heading settled" data-level="5.1" id="tolerance-standards①"><span class="secno">5.1. </span><span class="content">Distributed Tolerance Framework</span><a class="self-link" href="#tolerance-standards①"></a></h3>
-   <p>The Biomass Open Origin Standard for Tracking (BOOST) implements a distributed tolerance approach wherein tolerance specifications are defined within the entities where they physically manifest. This architecture provides clear governance attribution and enables concrete validation processes for biomass supply chain operations.</p>
+   <p>The Biomass Open Origin Specification for Tracking (BOOST) implements a distributed tolerance approach wherein tolerance specifications are defined within the entities where they physically manifest. This architecture provides clear governance attribution and enables concrete validation processes for biomass supply chain operations.</p>
    <p>The distributed tolerance framework establishes explicit tolerance specifications for measurement accuracy, processing losses, and regulatory compliance reporting across interconnected BOOST entities.</p>
    <h4 class="heading settled" data-level="5.1.1" id="tolerance-governance-model"><span class="secno">5.1.1. </span><span class="content"><strong>Tolerance Governance Model</strong></span><a class="self-link" href="#tolerance-governance-model"></a></h4>
    <p><strong>Equipment Accuracy Tolerances</strong> → <a href="#measurement-record">MeasurementRecord</a> entity</p>
@@ -5473,7 +5473,7 @@ MaterialProcessing entities provide comprehensive audit trails by:
    <h3 class="heading settled" data-level="8.2" id="system-overview"><span class="secno">8.2. </span><span class="content">System Overview</span><a class="self-link" href="#system-overview"></a></h3>
    <h4 class="heading settled" data-level="8.2.1" id="17-standardized-plant-parts-taxonomy"><span class="secno">8.2.1. </span><span class="content">17 Standardized Plant Parts Taxonomy</span><a class="self-link" href="#17-standardized-plant-parts-taxonomy"></a></h4>
    
-The BOOST standard defines a comprehensive taxonomy of plant components:
+The BOOST specification defines a comprehensive taxonomy of plant components:
 
 
    <p><strong>Primary Structural Components:</strong></p>
@@ -21153,7 +21153,7 @@ JSON-LD enables transformation to RDF triples for:
    </ul>
    <p>The JSON-LD context provides BOOST with semantic web capabilities essential for modern supply chain interoperability and regulatory compliance.</p>
    <h2 class="heading settled" data-level="49" id="regulatory-compliance-frameworks"><span class="secno">49. </span><span class="content">Regulatory Program Compliance</span><a class="self-link" href="#regulatory-compliance-frameworks"></a></h2>
-   <p>The BOOST standard provides comprehensive support for regulatory compliance across multiple biofuel programs, with specialized frameworks for the California Low Carbon Fuel Standard (LCFS), EPA Renewable Fuel Standard (RFS), and EU Renewable Energy Directive (RED II). This section documents complete programmatic reporting workflows, compliance requirements, and implementation guidance for regulatory submissions.</p>
+   <p>The BOOST specification provides comprehensive support for regulatory compliance across multiple biofuel programs, with specialized frameworks for the California Low Carbon Fuel Standard (LCFS), EPA Renewable Fuel Standard (RFS), and EU Renewable Energy Directive (RED II). This section documents complete programmatic reporting workflows, compliance requirements, and implementation guidance for regulatory submissions.</p>
    <h3 class="heading settled" data-level="49.1" id="lcfs-program"><span class="secno">49.1. </span><span class="content">California Low Carbon Fuel Standard (LCFS)</span><a class="self-link" href="#lcfs-program"></a></h3>
    <h4 class="heading settled" data-level="49.1.1" id="lcfs-overview"><span class="secno">49.1.1. </span><span class="content">LCFS Program Overview</span><a class="self-link" href="#lcfs-overview"></a></h4>
    <p>The California Low Carbon Fuel Standard, administered by the California Air Resources Board (CARB), is California’s market-based regulation designed to reduce greenhouse gas emissions from transportation fuels by 20% below 2010 levels by 2030. The program creates economic incentives for low-carbon fuels through a credit trading system based on carbon intensity benchmarks.</p>
@@ -23465,7 +23465,7 @@ print<c- p>(</c->f<c- u>"Compliance Status: </c-><c- si>{</c-><c- n>q3_report</c
 </pre>
    <p>This comprehensive expansion provides implementers with detailed guidance for BioRAM compliance using BOOST, covering all aspects requested in Issue #236.</p>
    <h2 class="heading settled" data-level="50" id="python-implementation"><span class="secno">50. </span><span class="content">Python Reference Implementation</span><a class="self-link" href="#python-implementation"></a></h2>
-   <p>The BOOST standard provides a comprehensive Python reference implementation that demonstrates dynamic, schema-driven data models, validation, and supply chain tracking capabilities for biomass chain of custody operations.</p>
+   <p>The BOOST specification provides a comprehensive Python reference implementation that demonstrates dynamic, schema-driven data models, validation, and supply chain tracking capabilities for biomass chain of custody operations.</p>
    <h3 class="heading settled" data-level="50.1" id="python-overview"><span class="secno">50.1. </span><span class="content">Overview</span><a class="self-link" href="#python-overview"></a></h3>
    <p>The Python reference implementation uses a <strong>dynamic, schema-driven architecture</strong> that automatically adapts to changes in BOOST JSON schemas without requiring code modifications. Key features include:</p>
    <ul>
@@ -23989,7 +23989,7 @@ print<c- p>(</c->f<c- u>"Validation results: </c-><c- si>{</c-><c- n>results</c-
      <p><strong>W3C PROV Ontology</strong> for provenance tracking</p>
    </ul>
    <h2 class="heading settled" data-level="51" id="examples"><span class="secno">51. </span><span class="content">Examples</span><a class="self-link" href="#examples"></a></h2>
-   <p>This section provides practical examples of BOOST data structures and common implementation patterns to help developers understand how to work with the standard.</p>
+   <p>This section provides practical examples of BOOST data structures and common implementation patterns to help developers understand how to work with the specification.</p>
    <p>All examples use the JSON-LD format with the BOOST context definition to ensure semantic interoperability.</p>
    <h3 class="heading settled" data-level="51.1" id="python-implementation-examples"><span class="secno">51.1. </span><span class="content">Python Implementation Examples</span><a class="self-link" href="#python-implementation-examples"></a></h3>
    <h4 class="heading settled" data-level="51.1.1" id="basic-client-usage"><span class="secno">51.1.1. </span><span class="content">Basic Client Usage</span><a class="self-link" href="#basic-client-usage"></a></h4>
@@ -24111,10 +24111,10 @@ print<c- p>(</c-><c- n>jsonld_output</c-><c- p>)</c->
    <h4 class="heading settled" data-level="52.1.1" id="core-presentations"><span class="secno">52.1.1. </span><span class="content">Core Presentations</span><a class="self-link" href="#core-presentations"></a></h4>
    <div class="presentation-grid">
     <p><strong>BOOST Kickoff Presentation</strong>
-Overview of the BOOST data standard initiative, project goals, and working group approach.
+Overview of the BOOST data specification initiative, project goals, and working group approach.
 <a class="presentation-link" href="../presentations/boost_kickoff.html">View Presentation →</a></p>
     <p><strong>Transaction Object Examples</strong>
-Technical demonstration of data structures and transaction examples in the BOOST standard.
+Technical demonstration of data structures and transaction examples in the BOOST specification.
 <a class="presentation-link" href="../presentations/transaction_object_examples.html">View Examples →</a></p>
    </div>
    <h4 class="heading settled" data-level="52.1.2" id="agency-engagement"><span class="secno">52.1.2. </span><span class="content">Agency Engagement</span><a class="self-link" href="#agency-engagement"></a></h4>
@@ -24226,7 +24226,7 @@ Latest working group meeting notes and updates from June 25th session.
      <p>Join <a href="https://lists.w3.org/Archives/Public/public-boost-01/">W3C Community Group discussions</a></p>
    </ol>
    <h2 class="heading settled" data-level="53" id="security"><span class="secno">53. </span><span class="content">Security Considerations</span><a class="self-link" href="#security"></a></h2>
-   <p>The BOOST data standard involves the exchange of sensitive commercial and operational data across biomass supply chains. Implementations must carefully consider security implications at multiple levels:</p>
+   <p>The BOOST data specification involves the exchange of sensitive commercial and operational data across biomass supply chains. Implementations must carefully consider security implications at multiple levels:</p>
    <h3 class="heading settled" data-level="53.1" id="data-privacy"><span class="secno">53.1. </span><span class="content">Data Privacy</span><a class="self-link" href="#data-privacy"></a></h3>
    <p>Implementations SHOULD consider privacy implications of biomass tracking data:</p>
    <ul>

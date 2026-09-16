@@ -9,11 +9,11 @@ This section provides access to BOOST presentations, working group documentation
 <div class="presentation-grid">
 
 **BOOST Kickoff Presentation**
-Overview of the BOOST data standard initiative, project goals, and working group approach.
+Overview of the BOOST data specification initiative, project goals, and working group approach.
 <a href="../presentations/boost_kickoff.html" class="presentation-link">View Presentation →</a>
 
 **Transaction Object Examples** 
-Technical demonstration of data structures and transaction examples in the BOOST standard.
+Technical demonstration of data structures and transaction examples in the BOOST specification.
 <a href="../presentations/transaction_object_examples.html" class="presentation-link">View Examples →</a>
 
 </div>

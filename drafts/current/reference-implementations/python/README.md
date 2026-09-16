@@ -1,10 +1,10 @@
 # BOOST Python Reference Implementation
 
-A comprehensive Python library for working with the BOOST (Biomass Open Origin Standard for Tracking) standard, providing **dynamic, schema-driven** data models, validation, and supply chain tracking capabilities for biomass chain of custody operations.
+A comprehensive Python library for working with the BOOST (Biomass Open Origin Specification for Tracking), providing **dynamic, schema-driven** data models, validation, and supply chain tracking capabilities for biomass chain of custody operations.
 
 ## Overview
 
-This reference implementation demonstrates how to use the BOOST standard in Python applications, providing:
+This reference implementation demonstrates how to use the BOOST specification in Python applications, providing:
 
 - **🔄 Dynamic Schema-Driven Architecture**: Automatically adapts to schema changes without code modifications
 - **✅ Comprehensive Validation**: Schema, business logic, and cross-entity validation
@@ -556,7 +556,7 @@ if not validation['valid']:
 
 ## Contributing
 
-This reference implementation is part of the BOOST standard development. To contribute:
+This reference implementation is part of the BOOST specification development. To contribute:
 
 1. Follow existing code patterns and style
 2. Add comprehensive tests for new features
@@ -571,7 +571,7 @@ This reference implementation is part of the BOOST standard development. To cont
 - **Dynamic Discovery**: Automatically finds and loads all schema changes
 
 ### 🛡️ Enhanced Robustness
-- **Future-Proof**: Adapts to BOOST standard evolution automatically
+- **Future-Proof**: Adapts to BOOST specification evolution automatically
 - **Version Compatibility**: Gracefully handles schema version changes
 - **Comprehensive Validation**: 8 categories of configurable business rules
 
@@ -604,7 +604,7 @@ This reference implementation is part of the BOOST open standard project. See th
 For questions about this implementation:
 - Review the example scripts
 - Check the API documentation above
-- Refer to the main BOOST standard documentation
+- Refer to the main BOOST specification documentation
 - File issues in the main BOOST repository
 
 ---

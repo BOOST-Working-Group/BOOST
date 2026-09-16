@@ -1,5 +1,5 @@
 <pre class='metadata'>
-Title: Biomass Open Origin Standard for Tracking (BOOST) Data Standard
+Title: Biomass Open Origin Specification for Tracking (BOOST)
 Shortname: boost
 Level: 1
 Status: LD
@@ -8,7 +8,7 @@ Date: 2025-08-11
 Editor: Peter Tittmann, Carbon Direct, ptittmann@carbon-direct.com  
 Editor: Liam Killroy, Carbon Direct, lkillroy@carbon-direct.com
 Editor: BOOST W3C Community Group, public-boost-01@w3.org
-Abstract: The Biomass Open Origin Standard for Tracking (BOOST) data standard defines a comprehensive, interoperable framework for tracking biomass materials through complex supply chains. BOOST enables transparent, verifiable, and consistent data exchange to support sustainability verification, regulatory compliance, and supply chain integrity across the biomass economy. The standard implements a TraceableUnit (TRU)-centric model supporting continuous traceability, multi-species composition management, and comprehensive plant part categorization across 33 interconnected entities organized into 7 thematic areas.
+Abstract: The Biomass Open Origin Specification for Tracking (BOOST) defines a comprehensive, interoperable framework for tracking biomass materials through complex supply chains. BOOST enables transparent, verifiable, and consistent data exchange to support sustainability verification, regulatory compliance, and supply chain integrity across the biomass economy. The specification implements a TraceableUnit (TRU)-centric model supporting continuous traceability, multi-species composition management, and comprehensive plant part categorization across 33 interconnected entities organized into 7 thematic areas.
 Markup Shorthands: markdown yes
 </pre>
 
@@ -105,7 +105,7 @@ Copyright © 2025 BOOST W3C Community Group. This work is licensed under the <a 
 
 <h2 id="sotd" class="no-num no-toc">Status of This Document</h2>
 
-This specification was published by the [Biomass Open Origin Standard for Tracking (BOOST) W3C Community Group](https://www.w3.org/community/boost-01/). It is not a W3C Standard nor is it on the W3C Standards Track. Please note that under the [W3C Community Final Specification Agreement (FSA)](https://www.w3.org/community/about/process/final/) other conditions apply. Learn more about [W3C Community and Business Groups](https://www.w3.org/community/).
+This specification was published by the [Biomass Open Origin Specification for Tracking (BOOST) W3C Community Group](https://www.w3.org/community/boost-01/). It is not a W3C Standard nor is it on the W3C Standards Track. Please note that under the [W3C Community Final Specification Agreement (FSA)](https://www.w3.org/community/about/process/final/) other conditions apply. Learn more about [W3C Community and Business Groups](https://www.w3.org/community/).
 
 This document is governed by the [W3C Community License Agreement (CLA)](https://www.w3.org/community/about/process/cla/). A human-readable [summary](https://www.w3.org/community/about/process/cla-deed/) is available.
 
@@ -134,7 +134,7 @@ path: includes/introduction.inc.md
 
 ## Purpose and Scope ## {#purpose-scope}
 
-This specification defines the BOOST (Biomass Open Origin Standard for Tracking) data standard for biomass supply chain tracking and verification. The standard provides:
+This specification defines the BOOST (Biomass Open Origin Specification for Tracking) data model for biomass supply chain tracking and verification. The specification provides:
 
 - A unified data model for biomass custody transfers
 - Format constraints for serializing chain of custody data
@@ -1574,7 +1574,7 @@ The JSON-LD context provides BOOST with semantic web capabilities essential for 
 
 # Regulatory Program Compliance # {#regulatory-compliance-frameworks}
 
-The BOOST standard provides comprehensive support for regulatory compliance across multiple biofuel programs, with specialized frameworks for the California Low Carbon Fuel Standard (LCFS), EPA Renewable Fuel Standard (RFS), and EU Renewable Energy Directive (RED II). This section documents complete programmatic reporting workflows, compliance requirements, and implementation guidance for regulatory submissions.
+The BOOST specification provides comprehensive support for regulatory compliance across multiple biofuel programs, with specialized frameworks for the California Low Carbon Fuel Standard (LCFS), EPA Renewable Fuel Standard (RFS), and EU Renewable Energy Directive (RED II). This section documents complete programmatic reporting workflows, compliance requirements, and implementation guidance for regulatory submissions.
 
 ## California Low Carbon Fuel Standard (LCFS) ## {#lcfs-program}
 
@@ -3733,7 +3733,7 @@ class BioRAMValidationEngine:
 This comprehensive expansion provides implementers with detailed guidance for BioRAM compliance using BOOST, covering all aspects requested in Issue #236.
 # Python Reference Implementation # {#python-implementation}
 
-The BOOST standard provides a comprehensive Python reference implementation that demonstrates dynamic, schema-driven data models, validation, and supply chain tracking capabilities for biomass chain of custody operations.
+The BOOST specification provides a comprehensive Python reference implementation that demonstrates dynamic, schema-driven data models, validation, and supply chain tracking capabilities for biomass chain of custody operations.
 
 ## Overview ## {#python-overview}
 

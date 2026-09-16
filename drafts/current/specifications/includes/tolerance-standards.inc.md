@@ -1,6 +1,6 @@
 ## Distributed Tolerance Framework ## {#tolerance-standards}
 
-The Biomass Open Origin Standard for Tracking (BOOST) implements a distributed tolerance approach wherein tolerance specifications are defined within the entities where they physically manifest. This architecture provides clear governance attribution and enables concrete validation processes for biomass supply chain operations.
+The Biomass Open Origin Specification for Tracking (BOOST) implements a distributed tolerance approach wherein tolerance specifications are defined within the entities where they physically manifest. This architecture provides clear governance attribution and enables concrete validation processes for biomass supply chain operations.
 
 The distributed tolerance framework establishes explicit tolerance specifications for measurement accuracy, processing losses, and regulatory compliance reporting across interconnected BOOST entities.
 
