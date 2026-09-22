@@ -1,4 +1,4 @@
-BOOST addresses critical use cases across the biomass supply chain, from forest management and harvesting through processing, transportation, and final delivery. The standard supports both regulatory compliance and voluntary certification scenarios.
+BOOST addresses critical use cases across the biomass supply chain, from forest management and harvesting through processing, transportation, and final delivery. The specification supports both regulatory compliance and voluntary certification scenarios.
 
 ## Core Use Case Categories
 

@@ -3,7 +3,7 @@
 #+LATEX_HEADER: \usepackage{amsmath}
 #+LATEX_HEADER: \usepackage{draftwatermark}
 #+OPTIONS: toc:nil author:nil
-#+TITLE: Biomass Open Origin Standard for Tracking (BOOST)
+#+TITLE: Biomass Open Origin Specification for Tracking (BOOST)
 #+SUBTITLE: Working Group Charter
 
 \maketitle
@@ -22,19 +22,19 @@ This Charter is work in progress. To submit feedback, please use [[https://githu
 
 * Context
 
-The development of the initial version of this data standard is funded through a grant from the California Department of Conservation. This standard is intended to broadly inform the development of biomass chain of custody tools, with an initial focus on California as the jurisdictional context. California's regulatory environment presents challenges and opportunities for participants in the biomass economy that are broadly transferable to a generalized biomass chain of custody data standard.
+The development of the initial version of this data specification is funded through a grant from the California Department of Conservation. This specification is intended to broadly inform the development of biomass chain of custody tools, with an initial focus on California as the jurisdictional context. California's regulatory environment presents challenges and opportunities for participants in the biomass economy that are broadly transferable to a generalized biomass chain of custody data specification.
 
 The group will seek participation from a balanced range of stakeholders, including civil society organizations, government agencies, small and large businesses, and independent technical experts. Recruitment and engagement efforts will be made to avoid overrepresentation of any single stakeholder group.
 
 * Goals
 
-The mission and goals of this Community Group are to *develop and* *maintain a robust data standard for solid biomass*. to provide a structured framework to enable the systematic collection, management, and exchange of information throughout complex supply chains and processes. The goal is to ensure accurate tracking, transparency, and compliance with sustainability criteria, facilitating the reliable transfer of essential information, including sustainability characteristics and data required for greenhouse gas (GHG) emission calculations, from the source to the end-user. This standard is intended to support the needs of organizations involved in the biomass supply chain, agencies and stakeholders in the biomass economy, and systems like Chain of Custody (CoC) software, referencing concepts from documents like the Netherlands Enterprise Agency, /“Guidance Chain of/ /Custody: Sustainability Criteria for Solid Biomass for Energy/ /Applications.”/ and related standards such as those from Sustainable Biomass Program , International Organization for Standardization, Sustainable Forestry Initiative, the Forest Stewardship Council, and the Roundtable on Sustainable Biomaterials
+The mission and goals of this Community Group are to *develop and* *maintain a robust data specification for solid biomass*. to provide a structured framework to enable the systematic collection, management, and exchange of information throughout complex supply chains and processes. The goal is to ensure accurate tracking, transparency, and compliance with sustainability criteria, facilitating the reliable transfer of essential information, including sustainability characteristics and data required for greenhouse gas (GHG) emission calculations, from the source to the end-user. This specification is intended to support the needs of organizations involved in the biomass supply chain, agencies and stakeholders in the biomass economy, and systems like Chain of Custody (CoC) software, referencing concepts from documents like the Netherlands Enterprise Agency, /“Guidance Chain of/ /Custody: Sustainability Criteria for Solid Biomass for Energy/ /Applications.”/ and related standards such as those from Sustainable Biomass Program , International Organization for Standardization, Sustainable Forestry Initiative, the Forest Stewardship Council, and the Roundtable on Sustainable Biomaterials
 
 * Scope of Work
 
-The scope of work includes defining a data standard that specifies the format, structure, and relationships of data elements necessary to document and transfer information about solid biomass for energy applications within a Chain of Custody system.
+The scope of work includes defining a data specification that specifies the format, structure, and relationships of data elements necessary to document and transfer information about solid biomass for energy applications within a Chain of Custody system.
 
-The standard shall cover the representation of key entities and their associated information as described in relevant guidance and standards, including:
+The specification shall cover the representation of key entities and their associated information as described in relevant guidance and standards, including:
 
 - *Organizations (Links)* within the supply chain that take legal ownership of the biomass, including their roles and scope.
 - *Biomass Consignments* or transactions representing quantities of   biomass transferred or handled, including attributes like quantity,   type, and transaction dates. This includes distinguishing between Incoming and Outgoing Consignments.
@@ -48,18 +48,18 @@ The standard shall cover the representation of key entities and their associated
 - Information related to *Verification Statements* issued by   independent third parties.
 - Documentation and records used for transactions and registration.
 - Data relevant to a risk-based approach, potentially including elements of a *Due Diligence System* where applicable, particularly for Category 2 biomass.
-- The standard should consider how to represent the flow of information between suppliers and recipients and the use of documentation like   sales/delivery documents.
+- The specification should consider how to represent the flow of information between suppliers and recipients and the use of documentation like   sales/delivery documents.
 - Consideration of alignment or interoperability requirements with   existing data transfer systems, such as the SBP Data Transfer System  (DTS).
 
-The standard should be defined in a technical format suitable for software system implementation, potentially including supporting documentation.
+The specification should be defined in a technical format suitable for software system implementation, potentially including supporting documentation.
 
 * Out of Scope
 
 Topics known in advance to be out of scope include:
 
-- Defining or modifying the sustainability criteria for solid biomass   (these criteria are defined by regulatory or voluntary certification requirements). The   standard will focus on representing data /related/ to these criteria. - Defining the specific calculation methodologies for GHG emissions. The standard will define how to represent the data   /required/ for these calculations.
+- Defining or modifying the sustainability criteria for solid biomass   (these criteria are defined by regulatory or voluntary certification requirements). The   specification will focus on representing data /related/ to these criteria. - Defining the specific calculation methodologies for GHG emissions. The specification will define how to represent the data   /required/ for these calculations.
 - Defining the processes for conducting audits, certification, or   verification, or the requirements for Certification/Verification   Bodies.
-- Defining the requirements for establishing or operating a complete   Chain of Custody management system (these are defined in CoC standards). The standard will define the   data structure that such systems would manage and exchange.
+- Defining the requirements for establishing or operating a complete   Chain of Custody management system (these are defined in CoC standards). The specification will define the   data structure that such systems would manage and exchange.
 - Governing or approving certification schemes or their specific claims.
 - Defining the legal responsibilities of organizations (these are   determined by regulations and contractual agreements).
 
@@ -70,11 +70,11 @@ The primary deliverable will be a *Biomass Data Standard* *specification*. This 
 
 ** Non-Normative Reports
 
-The group may produce other Community Group Reports within the scope of this charter but that are not Specifications, for instance, use cases, requirements documents based on the analysis of sources like the "Guidance" and SBP Standards, or white papers explaining the rationale and implementation considerations for the standard.
+The group may produce other Community Group Reports within the scope of this charter but that are not Specifications, for instance, use cases, requirements documents based on the analysis of sources like the "Guidance" and SBP Standards, or white papers explaining the rationale and implementation considerations for the specification.
 
 ** Test Suites and Other Software
 
-The group MAY produce test suites to support the Specifications. These test suites could be used to validate data instances against the defined standard schema. The group MAY also develop reference implementations or libraries to facilitate the adoption and use of the standard. Please see the GitHub LICENSE file for test suite contribution licensing information.
+The group MAY produce test suites to support the Specifications. These test suites could be used to validate data instances against the defined schema. The group MAY also develop reference implementations or libraries to facilitate the adoption and use of the specification. Please see the GitHub LICENSE file for test suite contribution licensing information.
 
 * Dependencies or Liaisons
 
@@ -147,7 +147,7 @@ Any decisions reached at any meeting are tentative and should be recorded in a G
 
 * Chair Selection
 
-Peter Tittmann serves as Chair. The initial development of BOOST was supported by Carbon Direct; the standard is now maintained independently by the BOOST Working Group. Subsequent to the release of version 0.1 of the standard, participants in this group choose their Chair(s) and can replace their Chair(s) at any time using whatever means they prefer. However, if 5 participants, no two from the same organisation, call for an election, the group must use the following process to replace any current Chair(s) with a new Chair, consulting the Community Development Lead on election operations (e.g., voting infrastructure and using RFC 2777). 1. Participants announce their candidacies. Participants have 14 days to announce their candidacies, but this period ends as soon as all participants have announced their intentions. If there is only one candidate, that person becomes the Chair. If there are two or more candidates, there is a vote. Otherwise, nothing changes. 2. Participants vote. Participants have 21 days to vote for a single candidate, but this period ends as soon as all participants have voted. The individual who receives the most votes, no two from the same organisation, is elected chair. In case of a tie, RFC2777 is used to break the tie. An elected Chair may appoint co-Chairs.
+Peter Tittmann serves as Chair. The initial development of BOOST was supported by Carbon Direct; the specification is now maintained independently by the BOOST Working Group. Subsequent to the release of version 0.1 of the specification, participants in this group choose their Chair(s) and can replace their Chair(s) at any time using whatever means they prefer. However, if 5 participants, no two from the same organisation, call for an election, the group must use the following process to replace any current Chair(s) with a new Chair, consulting the Community Development Lead on election operations (e.g., voting infrastructure and using RFC 2777). 1. Participants announce their candidacies. Participants have 14 days to announce their candidacies, but this period ends as soon as all participants have announced their intentions. If there is only one candidate, that person becomes the Chair. If there are two or more candidates, there is a vote. Otherwise, nothing changes. 2. Participants vote. Participants have 21 days to vote for a single candidate, but this period ends as soon as all participants have voted. The individual who receives the most votes, no two from the same organisation, is elected chair. In case of a tie, RFC2777 is used to break the tie. An elected Chair may appoint co-Chairs.
 
 Participants dissatisfied with the outcome of an election may ask the Community Development Lead to intervene. The Community Development Lead, after evaluating the election, may take any action including no action.
 

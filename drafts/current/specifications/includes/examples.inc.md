@@ -1,4 +1,4 @@
-This section provides practical examples of BOOST data structures and common implementation patterns to help developers understand how to work with the standard.
+This section provides practical examples of BOOST data structures and common implementation patterns to help developers understand how to work with the specification.
 
 All examples use the JSON-LD format with the BOOST context definition to ensure semantic interoperability.
 

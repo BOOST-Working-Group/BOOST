@@ -1,7 +1,7 @@
 # BOOST Validation Rules and Constraints
 ## Comprehensive Data Integrity Framework
 
-This document defines the complete validation framework for the BOOST (Biomass Open Origin Standard for Tracking) data model, ensuring data integrity, consistency, and regulatory compliance across all entities and relationships.
+This document defines the complete validation framework for the BOOST (Biomass Open Origin Specification for Tracking) data model, ensuring data integrity, consistency, and regulatory compliance across all entities and relationships.
 
 ---
 

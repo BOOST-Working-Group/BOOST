@@ -55,7 +55,7 @@ This distinction enables sophisticated LCA and BECCS analysis by capturing both 
 ## System Overview
 
 ### 17 Standardized Plant Parts Taxonomy
-The BOOST standard defines a comprehensive taxonomy of plant components:
+The BOOST specification defines a comprehensive taxonomy of plant components:
 
 **Primary Structural Components:**
 - **trunk** - Main stem/bole of tree (primary commercial value)

@@ -1,6 +1,6 @@
-# Biomass Open Origin Standard for Tracking (BOOST) Community Group
+# Biomass Open Origin Specification for Tracking (BOOST) Community Group
 
-This repository is being used for work in the W3C Biomass Open Origin Standard for Tracking (BOOST) Community Group, governed by the [W3C Community License
+This repository is being used for work in the W3C Biomass Open Origin Specification for Tracking (BOOST) Community Group, governed by the [W3C Community License
 Agreement (CLA)](http://www.w3.org/community/about/process/cla/). To make substantive contributions,
 you must join the CG.
 

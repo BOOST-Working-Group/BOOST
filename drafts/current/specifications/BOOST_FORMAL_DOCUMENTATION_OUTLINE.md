@@ -10,11 +10,11 @@
 
 ## Abstract
 
-The Biomass Open Origin Standard for Tracking (BOOST) data standard defines a comprehensive, interoperable framework for tracking biomass materials through complex supply chains. BOOST enables transparent, verifiable, and consistent data exchange to support sustainability verification, regulatory compliance, and supply chain integrity across the biomass economy. The standard implements a TraceableUnit (TRU)-centric model supporting media-interruption-free tracking, multi-species composition management, and comprehensive plant part categorization across 33 interconnected entities organized into 7 thematic areas.
+The Biomass Open Origin Specification for Tracking (BOOST) defines a comprehensive, interoperable framework for tracking biomass materials through complex supply chains. BOOST enables transparent, verifiable, and consistent data exchange to support sustainability verification, regulatory compliance, and supply chain integrity across the biomass economy. The specification implements a TraceableUnit (TRU)-centric model supporting media-interruption-free tracking, multi-species composition management, and comprehensive plant part categorization across 33 interconnected entities organized into 7 thematic areas.
 
 ## Status of This Document
 
-This specification was published by the Biomass Open Origin Standard for Tracking (BOOST) W3C Community Group. It is not a W3C Standard nor is it on the W3C Standards Track. Please note that under the W3C Community Final Specification Agreement (FSA) other conditions apply. Learn more about W3C Community and Business Groups.
+This specification was published by the Biomass Open Origin Specification for Tracking (BOOST) W3C Community Group. It is not a W3C Standard nor is it on the W3C Standards Track. Please note that under the W3C Community Final Specification Agreement (FSA) other conditions apply. Learn more about W3C Community and Business Groups.
 
 This document is governed by the W3C Community License Agreement (CLA). A human-readable summary is available.
 
@@ -38,7 +38,7 @@ This specification is primarily developed on GitHub. The best way to contribute 
 ## 1. Introduction *(Normative)*
 
 ### 1.1 Purpose and Scope
-This specification defines the BOOST (Biomass Open-Source Traceability) data standard for biomass supply chain tracking and verification. The standard provides:
+This specification defines the BOOST (Biomass Open-Source Traceability) data specification for biomass supply chain tracking and verification. The specification provides:
 
 - A unified data model for biomass custody transfers
 - Format constraints for serializing chain of custody data
@@ -46,7 +46,7 @@ This specification defines the BOOST (Biomass Open-Source Traceability) data sta
 - Regulatory compliance frameworks for multiple jurisdictions
 
 ### 1.2 Background and Motivation
-The development of comprehensive biomass traceability systems addresses critical needs for sustainability verification, regulatory compliance, and supply chain transparency in the growing biomass economy. This standard enables interoperability between reporting systems, registries, and certification bodies.
+The development of comprehensive biomass traceability systems addresses critical needs for sustainability verification, regulatory compliance, and supply chain transparency in the growing biomass economy. This specification enables interoperability between reporting systems, registries, and certification bodies.
 
 ### 1.3 Relationship to Existing Standards
 BOOST builds upon and integrates with established standards including:

@@ -1,4 +1,4 @@
-# Biomass Open Origin Standard for Tracking (BOOST) Community Group
+# Biomass Open Origin Specification for Tracking (BOOST) Community Group
 
 ## ⚠️ Critical Documentation Architecture Notice
 
@@ -18,7 +18,7 @@
 [![Development Docs](https://github.com/BOOST-Working-Group/BOOST/workflows/📚%20Build%20Development%20Documentation/badge.svg)](https://github.com/BOOST-Working-Group/BOOST/actions/workflows/build-dev-docs.yml)
 
 ## Overview
-This repository contains the working draft and artifacts of the Biomass Open Origin Standard for Tracking (BOOST), which defines a robust and interoperable data model for tracking biomass through complex supply chains. The standard supports transparent, verifiable, and consistent data exchange to enable sustainability, regulatory compliance, and supply chain integrity.
+This repository contains the working draft and artifacts of the Biomass Open Origin Specification for Tracking (BOOST), which defines a robust and interoperable data model for tracking biomass through complex supply chains. The specification supports transparent, verifiable, and consistent data exchange to enable sustainability, regulatory compliance, and supply chain integrity.
 
 **Current Version: {{VERSION}}** - Enhanced collaboration with GitHub Issues-based enhancement planning, build system improvements, and comprehensive documentation consistency validation.
 

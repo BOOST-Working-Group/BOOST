@@ -4,18 +4,18 @@
 
 ## What BOOST Accomplishes ## {#boost-purpose}
 
-The Biomass Open Origin Standard for Tracking (BOOST) solves the fundamental challenge of maintaining continuous, verifiable traceability through biomass supply chains—from standing trees to processed biofuels—without losing data integrity at critical transfer points where materials change hands, locations, or physical states.
+The Biomass Open Origin Specification for Tracking (BOOST) solves the fundamental challenge of maintaining continuous, verifiable traceability through biomass supply chains—from standing trees to processed biofuels—without losing data integrity at critical transfer points where materials change hands, locations, or physical states.
 
 **Core Problem Addressed**: Traditional biomass tracking systems break down during material transfers, processing operations, and aggregation points, creating traceability gaps where data continuity is lost or becomes unreliable. This forces businesses to maintain separate, incompatible tracking systems for different regulatory requirements while increasing documentation burden and compliance costs.
 
-**BOOST's Solution**: A unified data standard built around **TraceableUnits (TRUs)** that maintain their identity throughout the supply chain using progressive identification methods, technology-appropriate data capture, and comprehensive field structures that simultaneously satisfy multiple regulatory frameworks.
+**BOOST's Solution**: A unified data specification built around **TraceableUnits (TRUs)** that maintain their identity throughout the supply chain using progressive identification methods, technology-appropriate data capture, and comprehensive field structures that simultaneously satisfy multiple regulatory frameworks.
 
 
 ## Overarching Design Principles ## {#design-principles}
 
 ### **TraceableUnits (TRUs) as Foundation**
 
-The TraceableUnits (TRUs) entity is the central organizing concept of the entire BOOST standard. Every other entity in the 33-entity data model either creates, modifies, measures, or references TraceableUnits (TRUs)s. This TRU-centric approach reflects the physical reality of biomass operations:
+The TraceableUnits (TRUs) entity is the central organizing concept of the entire BOOST specification. Every other entity in the 33-entity data model either creates, modifies, measures, or references TraceableUnits (TRUs)s. This TRU-centric approach reflects the physical reality of biomass operations:
 
 - **Harvest Level**: Individual logs, piles, or volume aggregations become initial TRUs with appropriate identification methods
 - **Transport Level**: TRUs move through critical tracking points (harvest\_site $\rightarrow$ skid\_road $\rightarrow$ forest\_road $\rightarrow$ mill\_entrance) while maintaining identity

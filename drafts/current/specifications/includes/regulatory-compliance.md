@@ -1,6 +1,6 @@
 # Regulatory Program Compliance # {#regulatory-compliance}
 
-The BOOST standard provides comprehensive support for regulatory compliance across multiple biofuel programs, with primary focus on the California Low Carbon Fuel Standard (LCFS). This section documents programmatic reporting workflows, compliance requirements, and implementation guidance for regulatory submissions.
+The BOOST specification provides comprehensive support for regulatory compliance across multiple biofuel programs, with primary focus on the California Low Carbon Fuel Standard (LCFS). This section documents programmatic reporting workflows, compliance requirements, and implementation guidance for regulatory submissions.
 
 ## Low Carbon Fuel Standard (LCFS) Overview ## {#lcfs-overview}
 
