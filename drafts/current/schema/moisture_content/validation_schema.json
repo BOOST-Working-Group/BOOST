@@ -3,7 +3,7 @@
     "$schema": "http://json-schema.org/draft-07/schema#",
     "$id": "https://github.com/BOOST-Working-Group/BOOST/schemas/moisture-content-validation",
     "title": "BOOST Moisture Content Validation Rules",
-    "description": "Comprehensive validation rules and business logic for moisture content tracking across the BOOST data standard",
+    "description": "Comprehensive validation rules and business logic for moisture content tracking across the BOOST data specification",
     "type": "object",
     "properties": {
       "@context": {

@@ -127,7 +127,7 @@ jobs:
           echo "Consider adding these badges to the top of your README:" >> $GITHUB_STEP_SUMMARY
           echo "" >> $GITHUB_STEP_SUMMARY
           echo '```markdown' >> $GITHUB_STEP_SUMMARY
-          echo '# BOOST Data Standard' >> $GITHUB_STEP_SUMMARY
+          echo '# BOOST Specification' >> $GITHUB_STEP_SUMMARY
           echo '' >> $GITHUB_STEP_SUMMARY
           echo '[![Build & Deploy](https://github.com/BOOST-Working-Group/BOOST/actions/workflows/build-deploy.yml/badge.svg?branch=main)](https://github.com/BOOST-Working-Group/BOOST/actions/workflows/build-deploy.yml)' >> $GITHUB_STEP_SUMMARY
           echo '[![Schema Validation](https://github.com/BOOST-Working-Group/BOOST/actions/workflows/schema-validation.yml/badge.svg?branch=main)](https://github.com/BOOST-Working-Group/BOOST/actions/workflows/schema-validation.yml)' >> $GITHUB_STEP_SUMMARY

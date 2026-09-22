@@ -1,6 +1,6 @@
 # 🚀 BOOST Documentation CI/CD Pipeline
 
-This document describes the comprehensive CI/CD pipeline implementation for the BOOST Data Standard documentation build and deployment process.
+This document describes the comprehensive CI/CD pipeline implementation for the BOOST Specification documentation build and deployment process.
 
 ## 📋 Overview
 

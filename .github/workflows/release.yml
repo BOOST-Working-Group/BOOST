@@ -255,7 +255,7 @@ jobs:
               --template=eisvogel \
               --from=html \
               --to=pdf \
-              --metadata title="BOOST Data Standard ${{ steps.version-info.outputs.version }}" \
+              --metadata title="BOOST Specification ${{ steps.version-info.outputs.version }}" \
               --metadata author="BOOST Consortium" \
               --metadata date="$(date +%Y-%m-%d)" \
               --toc \
@@ -308,9 +308,9 @@ jobs:
           
           # Create README for the release
           cat > "release-package/${PACKAGE_NAME}/README.md" << EOF
-          # BOOST Data Standard Documentation ${VERSION}
+          # BOOST Specification Documentation ${VERSION}
           
-          This package contains the complete BOOST Data Standard documentation for version ${VERSION}.
+          This package contains the complete BOOST Specification documentation for version ${VERSION}.
           
           ## Contents
           
