@@ -268,10 +268,10 @@ jobs:
         with:
           fetch-depth: 0  # Need full history for git tag version extraction
 
-      - name: Set up Python 3.11
-        uses: actions/setup-python@v4
+      - name: Set up Python 3.12
+        uses: actions/setup-python@v5
         with:
-          python-version: '3.11'
+          python-version: '3.12'
 
       - name: Install system dependencies
         run: |
@@ -279,8 +279,11 @@ jobs:
           sudo apt-get install -y python3-pip
 
       - name: Install Bikeshed
+        # Pinned to a major version: `bikeshed update` pulls spec data whose
+        # layout tracks the current major, so an old pin plus fresh data
+        # breaks the build. Bikeshed 6+ needs Python 3.12.
         run: |
-          pip3 install 'bikeshed<6'
+          pip3 install 'bikeshed>=7,<8'
           bikeshed update
 
       - name: Confirm PR version information
