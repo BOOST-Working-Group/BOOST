@@ -477,7 +477,7 @@ jobs:
           <html>
           <head>
               <meta charset="utf-8">
-              <title>BOOST Data Standard Documentation</title>
+              <title>BOOST Specification Documentation</title>
               <link rel="canonical" href="./boost-spec.html">
               <style>
                   body { 
@@ -598,10 +598,10 @@ jobs:
               </div>
               
               <div class="hero-section">
-                  <h1>🌱 BOOST Data Standard</h1>
+                  <h1>🌱 BOOST Specification</h1>
                   <p class="description">
-                      Biomass Origin and Ownership Supply-chain Tracking (BOOST) provides a comprehensive 
-                      data standard for tracking biomass materials through complex supply chains with 
+                      Biomass Open Origin Specification for Tracking (BOOST) provides a comprehensive 
+                      data specification for tracking biomass materials through complex supply chains with 
                       complete traceability and sustainability verification.
                   </p>
                   <a href="./boost-spec.html" class="main-button">📖 View Documentation Online</a>
