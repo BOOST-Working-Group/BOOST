@@ -9,7 +9,7 @@ Local Boilerplate: logo yes
 Local Boilerplate: status yes
 Date: 2025-08-11
 !Version: {{VERSION}}
-Editor: Peter Tittmann, Carbon Direct, ptittmann@carbon-direct.com  
+Editor: Peter Tittmann, Arbos https://arbos.bio, peter@arbos.bio  
 Editor: Liam Killroy, Carbon Direct, lkillroy@carbon-direct.com
 Editor: BOOST W3C Community Group, public-boost-01@w3.org
 Abstract: The Biomass Open Origin Specification for Tracking (BOOST) defines a comprehensive, interoperable framework for tracking biomass materials through complex supply chains. BOOST enables transparent, verifiable, and consistent data exchange to support sustainability verification, regulatory compliance, and supply chain integrity across the biomass economy. The specification implements a TraceableUnit (TRU)-centric model supporting continuous traceability, multi-species composition management, and comprehensive plant part categorization across 33 interconnected entities organized into 7 thematic areas.
