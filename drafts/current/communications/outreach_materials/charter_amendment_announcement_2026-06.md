@@ -13,7 +13,7 @@ A proposed amendment to the BOOST Charter is open for your review. It extends th
 **Why now.** Forest-products stakeholders reading the current charter reasonably conclude that timber traceability is out of scope. The amendment removes that ambiguity so the standard can serve the timber and forest-fiber supply chains alongside energy biomass — and so our alignment work with WWF's Global Traceability Framework for Timber and our harvest-validation work can proceed without a scope question hanging over them.
 
 **Review the proposed text:** the redline is in pull request #300:
-https://github.com/BOOST-Working-Group/BOOST/pull/300
+https://github.com/Biogenics-Traceability/BOOST/pull/300
 Comment inline on the PR for specific edits, or on issue #283 for scope-level discussion.
 
 **What this does *not* do:** it does not rename the standard. The separate question of whether "BOOST" still fits a timber-inclusive scope is being discussed on its own track (issue #299) and is not part of this vote.
@@ -33,4 +33,4 @@ Chair, BOOST Working Group
 peter@arbos.bio
 
 ---
-*Sent to the BOOST W3C Community Group. Charter, PR, and issues: https://github.com/BOOST-Working-Group/BOOST*
+*Sent to the BOOST W3C Community Group. Charter, PR, and issues: https://github.com/Biogenics-Traceability/BOOST*

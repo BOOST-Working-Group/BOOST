@@ -15,8 +15,8 @@ The decisions ahead — extensions for wood products and fiber, regulatory cross
 
 **Get involved:**
 - [Join the Community Group](https://www.w3.org/community/boost-01/) — free and open to anyone
-- [Explore the data model](https://BOOST-Working-Group.github.io/BOOST/) — interactive entity navigator
-- [Pick up a task](https://github.com/BOOST-Working-Group/BOOST/blob/main/CONTRIBUTING.md) — or follow along at public-boost-01@w3.org
+- [Explore the data model](https://Biogenics-Traceability.github.io/BOOST/) — interactive entity navigator
+- [Pick up a task](https://github.com/Biogenics-Traceability/BOOST/blob/main/CONTRIBUTING.md) — or follow along at public-boost-01@w3.org
 
 ---
 

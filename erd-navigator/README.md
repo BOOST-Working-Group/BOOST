@@ -67,8 +67,8 @@ Operator, ProductGroup
 ## Access
 
 The Interactive ERD Navigator is available at:
-- **Live Site**: https://boost-working-group.github.io/BOOST/erd-navigator/
-- **Main Site**: https://boost-working-group.github.io/BOOST/ (includes link to navigator)
+- **Live Site**: https://biogenics-traceability.github.io/BOOST/erd-navigator/
+- **Main Site**: https://biogenics-traceability.github.io/BOOST/ (includes link to navigator)
 
 ## Technical Architecture
 
