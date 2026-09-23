@@ -89,7 +89,7 @@ Note:
 
 ## Core Components of the CoC Data Standard
 
-*DRAFT* [Entity Relationship Diagram](https://carbondirect.github.io/BOOST/erd-navigator/)
+*DRAFT* [Entity Relationship Diagram](https://biogenics-traceability.github.io/BOOST/erd-navigator/)
 
 **Framing Questions**
 

@@ -97,7 +97,7 @@ Latest working group meeting notes and updates from June 25th session.
 ### BOOST Membership ### {#boost-membership}
 
 **Chair:**
-- Peter Tittmann (Carbon Direct)
+- Peter Tittmann ([Arbos](https://arbos.bio))
 
 **Participants:**
 - Investor ab AB
