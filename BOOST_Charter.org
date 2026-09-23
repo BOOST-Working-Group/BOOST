@@ -8,9 +8,9 @@
 
 \maketitle
 
-This Charter is work in progress. To submit feedback, please use [[https://github.com/BOOST-Working-Group/BOOST][BOOST repository]] Issues where Charter is being developed. 
+This Charter is work in progress. To submit feedback, please use [[https://github.com/Biogenics-Traceability/BOOST][BOOST repository]] Issues where Charter is being developed. 
 
-+ This Charter: [[https://github.com/BOOST-Working-Group/BOOST/blob/main/BOOST_Charter.org][https://github.com/BOOST-Working-Group/BOOST/blob/main/BOOST_Charter.org]]
++ This Charter: [[https://github.com/Biogenics-Traceability/BOOST/blob/main/BOOST_Charter.org][https://github.com/Biogenics-Traceability/BOOST/blob/main/BOOST_Charter.org]]
 + Previous Charter: N/A
 + Start Date: <2025-04-30 Wed>
 + Last Modified

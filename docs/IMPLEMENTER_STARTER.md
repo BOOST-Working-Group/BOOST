@@ -8,14 +8,14 @@ An open data model for wood and biomass moving through a supply chain: what was 
 
 ## Read first
 
-- Specification (HTML): https://BOOST-Working-Group.github.io/BOOST/boost-spec.html
-- Specification (PDF): https://BOOST-Working-Group.github.io/BOOST/boost-spec.pdf
-- Interactive entity map (36 entities, 7 thematic areas): https://BOOST-Working-Group.github.io/BOOST/erd-navigator/
-- Repository: https://github.com/BOOST-Working-Group/BOOST
+- Specification (HTML): https://Biogenics-Traceability.github.io/BOOST/boost-spec.html
+- Specification (PDF): https://Biogenics-Traceability.github.io/BOOST/boost-spec.pdf
+- Interactive entity map (36 entities, 7 thematic areas): https://Biogenics-Traceability.github.io/BOOST/erd-navigator/
+- Repository: https://github.com/Biogenics-Traceability/BOOST
 - JSON Schemas, one directory per entity, with examples: `drafts/current/schema/`
 - Worked examples: `drafts/current/examples/`
 - JSON-LD context: `drafts/current/specifications/biomass_coc_context.jsonld`
-- Validator (open source; checks a payload against the schemas): https://github.com/BOOST-Working-Group/boost-validator
+- Validator (open source; checks a payload against the schemas): https://github.com/Biogenics-Traceability/boost-validator
 - Community Group and charter: https://www.w3.org/community/boost-01/
 
 ## The minimum an implementation emits

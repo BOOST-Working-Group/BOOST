@@ -5,7 +5,7 @@
 - **Reviewer Organization**: ___________________________
 - **Review Date**: ___________________________
 - **Documentation Version Reviewed**: ___________________________ 
-  *(found at: https://BOOST-Working-Group.github.io/BOOST/VERSION)*
+  *(found at: https://Biogenics-Traceability.github.io/BOOST/VERSION)*
 
 ---
 

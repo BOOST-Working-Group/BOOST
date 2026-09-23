@@ -25,7 +25,7 @@ What the standard needs now is specific expertise, not just numbers. The next tw
 
 > The BOOST Working Group (a W3C Community Group) is developing an open data standard for tracking forest biomass and wood products through the supply chain — one shared vocabulary that works across certification systems and regulatory programs, instead of a separate format for each. The standard is being tested with California state agencies and benchmarked against WWF's Global Traceability Framework for Timber. The group is looking for people who work with this data in practice: supply chain operators, certifiers, agency staff, and software developers. Membership is free and joining takes a few minutes: https://www.w3.org/community/boost-01/
 
-Joining is free and open to anyone; substantive contributors sign the W3C Community Contributor License Agreement at sign-up. New participants can explore the data model through the interactive ERD Navigator (https://BOOST-Working-Group.github.io/BOOST/) and pick up a task or simply follow along on this list.
+Joining is free and open to anyone; substantive contributors sign the W3C Community Contributor License Agreement at sign-up. New participants can explore the data model through the interactive ERD Navigator (https://Biogenics-Traceability.github.io/BOOST/) and pick up a task or simply follow along on this list.
 
 Thank you — the standard is only as good as the range of people who shape it.
 

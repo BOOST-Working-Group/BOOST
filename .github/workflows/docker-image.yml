@@ -18,7 +18,7 @@ on:
 
 env:
   REGISTRY: ghcr.io
-  IMAGE_NAME: boost-working-group/boost/boost-builder
+  IMAGE_NAME: biogenics-traceability/boost/boost-builder
 
 jobs:
   build-and-push:
