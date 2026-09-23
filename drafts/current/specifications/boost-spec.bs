@@ -2,7 +2,11 @@
 Title: Biomass Open Origin Specification for Tracking (BOOST)
 Shortname: boost
 Level: 1
-Status: LD
+Status: CG-DRAFT
+Org: W3C
+ED: https://boost-working-group.github.io/BOOST/boost-spec.html
+Local Boilerplate: logo yes
+Local Boilerplate: status yes
 Date: 2025-08-11
 !Version: {{VERSION}}
 Editor: Peter Tittmann, Carbon Direct, ptittmann@carbon-direct.com  
@@ -100,16 +104,9 @@ Markup Shorthands: markdown yes
 </pre>
 
 <div boilerplate="copyright">
-Copyright © 2025 BOOST W3C Community Group. This work is licensed under the <a href="https://www.w3.org/Consortium/Legal/2015/copyright-software-and-document">W3C Software and Document License</a>.
+<a href="https://www.w3.org/policies/#copyright">Copyright</a> © 2025-2026 the Contributors to the Biomass Open Origin Specification for Tracking (BOOST) Specification, published by the <a href="https://www.w3.org/community/boost-01/">Biomass Open Origin Specification for Tracking (BOOST) Community Group</a> under the <a href="https://www.w3.org/community/about/agreements/cla/">W3C Community Contributor License Agreement (CLA)</a>.
+A human-readable <a href="https://www.w3.org/community/about/agreements/cla-deed/">summary</a> is available.
 </div>
-
-<h2 id="sotd" class="no-num no-toc">Status of This Document</h2>
-
-This specification was published by the [Biomass Open Origin Specification for Tracking (BOOST) W3C Community Group](https://www.w3.org/community/boost-01/). It is not a W3C Standard nor is it on the W3C Standards Track. Please note that under the [W3C Community Final Specification Agreement (FSA)](https://www.w3.org/community/about/process/final/) other conditions apply. Learn more about [W3C Community and Business Groups](https://www.w3.org/community/).
-
-This document is governed by the [W3C Community License Agreement (CLA)](https://www.w3.org/community/about/process/cla/). A human-readable [summary](https://www.w3.org/community/about/process/cla-deed/) is available.
-
-Publication as a Community Group Report does not imply endorsement by the W3C Membership. This is a draft document and may be updated, replaced or obsoleted by other documents at any time. It is inappropriate to cite this document as other than work in progress.
 
 <h2 id="feedback" class="no-num no-toc">How to Give Feedback</h2>
 
